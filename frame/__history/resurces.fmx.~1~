@@ -1,0 +1,42 @@
+object Frame4: TFrame4
+  Size.Width = 337.000000000000000000
+  Size.Height = 110.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Size.Width = 317.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    XRadius = 12.000000000000000000
+    YRadius = 12.000000000000000000
+    object Label1: TLabel
+      Align = MostTop
+      AutoSize = True
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 297.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      TextSettings.VertAlign = Leading
+      Text = 'Label1'
+      TabOrder = 0
+    end
+    object Line1: TLine
+      Align = MostTop
+      LineType = Top
+      Position.Y = 31.000000000000000000
+      Size.Width = 317.000000000000000000
+      Size.Height = 2.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

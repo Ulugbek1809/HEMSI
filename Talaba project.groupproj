@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{327960F5-F5D4-403F-9F93-EF1109DBA18F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Talaba.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="test.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Talaba">
+        <MSBuild Projects="Talaba.dproj"/>
+    </Target>
+    <Target Name="Talaba:Clean">
+        <MSBuild Projects="Talaba.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Talaba:Make">
+        <MSBuild Projects="Talaba.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="test">
+        <MSBuild Projects="test.dproj"/>
+    </Target>
+    <Target Name="test:Clean">
+        <MSBuild Projects="test.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="test:Make">
+        <MSBuild Projects="test.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Talaba;test"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Talaba:Clean;test:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Talaba:Make;test:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

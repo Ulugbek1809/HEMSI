@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.879,D:\Software\Dasturlash\Project\Project1.dproj=D:\Software\Dasturlash\Project\Talaba 29.2.2024\timecolorpr.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.085,D:\Software\Dasturlash\Project\Unit2.fmx=D:\Software\Dasturlash\Project\Talaba 29.2.2024\timecolor.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.103,=D:\Software\Dasturlash\Project\Talaba 29.2.2024\frame\dars_frame.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.085,D:\Software\Dasturlash\Project\Unit2.pas=D:\Software\Dasturlash\Project\Talaba 29.2.2024\timecolor.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.210,=D:\Software\Dasturlash\Project\Unit2.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="45Z9V8DAGE99IB85" Android="45Z9V8DAGE99IB85"/>
+	</ActiveMobileDevice>
+</BorlandProject>

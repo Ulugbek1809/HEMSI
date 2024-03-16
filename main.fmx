@@ -1,0 +1,1171 @@
+object mainform: Tmainform
+  Left = 0
+  Top = 0
+  Caption = 'Talaba'
+  ClientHeight = 480
+  ClientWidth = 334
+  StyleBook = DataModule1.StyleBook1
+  Constraints.MinHeight = 480.000000000000000000
+  Constraints.MinWidth = 300.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object maintab: TTabControl
+    Align = Client
+    Size.Width = 334.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      334s
+      480s
+      334s
+      480s
+      334s
+      480s
+      334s
+      480s
+      334s
+      480s)
+    object universitetlar: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'universitet'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Label1: TLabel
+        Align = MostTop
+        StyledSettings = [Family, Style, FontColor]
+        Size.Width = 334.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Universitetingizni tanlang'
+        TabOrder = 0
+      end
+      object universitetbox: TListBox
+        Align = Client
+        Size.Width = 334.000000000000000000
+        Size.Height = 423.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        OnItemClick = universitetboxItemClick
+        Viewport.Width = 334.000000000000000000
+        Viewport.Height = 375.000000000000000000
+        object SearchBox1: TSearchBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 0
+          Size.Width = 334.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Qidirish..'
+        end
+      end
+    end
+    object login: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'login'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Layout1: TLayout
+        Align = MostTop
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 60.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 60.000000000000000000
+        Size.Width = 294.000000000000000000
+        Size.Height = 336.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Image2: TImage
+          MultiResBitmap.Height = 96
+          MultiResBitmap.Width = 96
+          MultiResBitmap = <
+            item
+              Width = 96
+              Height = 96
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+                380000000473424954080808087C086488000005B049444154789CED9C4B8C15
+                451486FFF6C9CB174F3524068C88A8800292E013C418178A71A50931262E5422
+                1A1F891BA3B07067DC4840D91A45D1956010C3334617081111302068D4880223
+                4F157080CF455D8C99DCD37D67A6FB54DFA1BE6575DFFBFFA7AAE74E759D5325
+                251289442291482412894422914824128944225139596C03AD009C2769AAA499
+                922648BA4ED2882EB7ED95B45DD26649AB256DC8B2ECA4A7CF3E073015580C74
+                D07D3A80B78029B1E3683B1A1DBFA6079D6EB10A981C3BAEDA030C041602A74A
+                ECFC339C0416000362C7594B8071C0F60A3ABE2B5B81B1B1E3AD15C04CE0A843
+                E79FE120705BECB8A51ACC8280A99256491A54706B67E3BE15923649FA51D2F1
+                C6B57E92464B1A2F69BAA4FB1B6D791C91747796651B7BE6BC0F008CA1788673
+                1898070CE9C6F70E06E603470ABE7B1F704D9531D6166000B0A5A0833E002EEF
+                85C695C047051A9B81A2BF96BE07614662D1093C55A2D6D38DEFB478A32CADB6
+                009844981636E31F6056059AB37206A1139850B6666D0156E63C8D8F55A8FB44
+                8EEE2755E9D68AC6D36FF19E83FE5243FB3430B16AFDE8006F1B1DD0010C73D0
+                1F41780F68C6C2AAF5A3025C9813FCCB8E3EE6E53C04E77BF97007986E047E02
+                18EAE86338E19F7D335CDF90CFF11453784B6DC6CA2CCB3ABC4C6459B64FE1AD
+                BA1933BC7C48FE03604DF53E7375115869B4BB4E47BD07608CD11E633DE62BA3
+                FD5A4F13DE0330DC68DFE5EA22B0DB68B73C5682F700582B9E875D5D040E19ED
+                177B9AF01E804417BC07E0A8D17E89AB8BC060A3DDF25809DE03B0D768BFDAD5
+                4560B4D16E79AC04EF01D869B44F727591AFB9C3D384F7006C31DA67BABAC8D7
+                FCC6D58527394B11C701EB37B90A1F431BCB1FCDB8DDCB873BE42FC6BDEAE8E3
+                15C343077081978F2810CA059B71885EE47FBBA19FB71CBDA06AFDE8003719C1
+                032C75D0CF4BC88CAF5ABF16009FE60CC2DC0A75E7E4E82EAF4AB776909F94EF
+                041EA840F3E102CDB327292FB55496F264895ACF905FF07B7695A548FF15666D
+                CDE91480F7E97D61D687051A67676196240163A9A6347108AD9526EE07AC1C85
+                0B7528CEBD45213D7851C1ADCD8A73F737AE0D5358DB992CE93E85B4625172FD
+                B04271EEA69E39EF4300D7033F173CAD65F213302E76DCB50218057CEDD0F91B
+                81AB62C75B4B807B801F2AECFCDD806BD5435B00DC09ACAFB0E3BBB20EB82376
+                DCD1014603CB1C3BBE2BCB8051B1FB210AC06C7CF785591C011E89D50FEED350
+                A0BFA437253DDE8D8FFD2169ADA42F256D95F49DA4BFBADC33486107FD0D92A6
+                49BA4B52CBEF0E92164B7A36CBB2E38577B62BC065C0E72D3E99078145C034A0
+                DB993BE01CE056C2F2F7811635D701310A04AA07B802F8B6854EF815780128DA
+                35D91DED41C08BC06F2DE86FC6212FE10AA11AF9FB82C08F012F5161460AE84F
+                58D63856E0651B8E29D24A01FA513CC5DC89E3EE14C272F8AE024F6BE90B8B74
+                D829C8337C0CB89603367C5D0A2C2FF0D6DE3B6680470B027C1D88B62008640D
+                0F79CC8EE5AF5710D6E20FE504B62866E7FFCF6786BD6F0DC26CACEBE150F507
+                589213D4127A30B5AC0AE05CF277D4BF13DB63B70066E404B38D1A9ED94398AA
+                EE303C9FA69DD68E802F8C404E0037C6F667014CC4DEBCB73EB6BF9600EECD79
+                FAE7C7F65704F05A8EFFFA2F65032B0CF3BF000363FB2B82F053B4C78861596C
+                7FB90023B1CB3FE6C4F6D72AC05C238653C0C8D8FE4C80E70CE3FB08ABA06D01
+                A16466BF11CBF3656A953D157CC8687F37CBB263256B554696657F4B5A625C7E
+                D0D34BCB108E9CB46AEE6F8EEDAFBB00538C584E50C36974DEEC674F6C6F3D81
+                F086FCBB1153693B7ACAFC09B24EA65D5DA2861B599621698D71B9B4E390CB1C
+                00EBF4C10D256A78631D67505A39639903609DB1E0BAEBB0642CEFA59D2751E6
+                005869BC18E7409485E5BDB4D5D13207C04AAA586732B403078CF6D21248650E
+                809544FFB3440D6FAC630B8A2AB9138944229148241289442291482412894422
+                91A813FF0204816D17B8F8E57B0000000049454E44AE426082}
+              FileName = 'D:\Software\Dasturlash\Project\Talaba 29.2.2024\icon\avatar.png'
+            end>
+          Align = MostTop
+          Size.Width = 294.000000000000000000
+          Size.Height = 129.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = MostTop
+          TabOrder = 3
+          Position.Y = 181.000000000000000000
+          Size.Width = 294.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Talaba ID  ni kiriting'
+          OnKeyDown = Edit1KeyDown
+          OnKeyUp = Edit1KeyUp
+        end
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = MostTop
+          TabOrder = 5
+          Password = True
+          Position.Y = 230.000000000000000000
+          Size.Width = 294.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Parol'
+          OnKeyDown = Edit2KeyDown
+          OnKeyUp = Edit2KeyUp
+          object PasswordEditButton1: TPasswordEditButton
+            CanFocus = False
+            Cursor = crArrow
+            TabOrder = 0
+          end
+        end
+        object GridPanelLayout3: TGridPanelLayout
+          Align = Client
+          Size.Width = 294.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          ColumnCollection = <
+            item
+              Value = 50.000000000000000000
+            end
+            item
+              Value = 50.000000000000000000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = Button3
+              Row = 0
+            end
+            item
+              Column = 1
+              Control = Button4
+              Row = 0
+            end>
+          RowCollection = <
+            item
+              Value = 100.000000000000000000
+            end>
+          object Button3: TButton
+            Align = Client
+            Margins.Left = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Size.Width = 137.000000000000000000
+            Size.Height = 39.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = 'orqaga'
+            OnClick = Button3Click
+          end
+          object Button4: TButton
+            Align = Client
+            Margins.Left = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Size.Width = 137.000000000000000000
+            Size.Height = 39.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            Text = 'Kirish'
+            OnClick = Button4Click
+          end
+        end
+        object Label4: TLabel
+          Align = MostTop
+          Position.Y = 129.000000000000000000
+          Size.Width = 294.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          TextSettings.VertAlign = Leading
+          Text = 'Label4'
+          TabOrder = 1
+        end
+        object Label5: TLabel
+          Align = MostTop
+          Position.Y = 164.000000000000000000
+          Size.Width = 294.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+        end
+        object Label6: TLabel
+          Align = MostTop
+          Position.Y = 213.000000000000000000
+          Size.Width = 294.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+        end
+        object Label7: TLabel
+          Align = MostTop
+          StyledSettings = [Family, Size, Style]
+          Position.Y = 262.000000000000000000
+          Size.Width = 294.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claRed
+          TextSettings.VertAlign = Leading
+          Text = 'xato'
+          TabOrder = 7
+        end
+      end
+    end
+    object error: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'error'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object GridPanelLayout2: TGridPanelLayout
+        Align = Center
+        Size.Width = 270.000000000000000000
+        Size.Height = 238.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Image1
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Label2
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = error_text
+            Row = 2
+          end
+          item
+            Column = 0
+            Control = Button2
+            Row = 3
+          end>
+        RowCollection = <
+          item
+            Value = 41.262399800713940000
+          end
+          item
+            Value = 12.814974387446400000
+          end
+          item
+            Value = 30.178644466829830000
+          end
+          item
+            Value = 15.743981345009830000
+          end>
+        object Image1: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap.LoadSize = 1
+          MultiResBitmap = <
+            item
+              Width = 270
+              Height = 98
+              PNG = {
+                89504E470D0A1A0A0000000D494844520000010E000000620806000000A1F03D
+                300000000473424954080808087C086488000009E049444154789CEDDD5B8C55
+                D51DC7F1EF0151042FD4CB54BC94947AA9056B5BDA425BB045410A0A216249AB
+                46AD4D1A1F9A26B6A9694CFAD2D71AD3F4FEDAA8AD18954AD5DEC02B626C4C44
+                C06BBD54F16E8BA26201197E7DF8AF69C73D6B0F33C399BDF739F3FB243B21B3
+                E6ACBDD619CE3A6BAFFFBA809999999999999999999999999999999999999975
+                0FC144C1C4BACB61CD34AEEE0258F308C6039701DF4CFF36332B276809A60B9E
+                113C2D982668D55D2E336B30C181826B04BDE9BA5A7060DDE532B386121C20F8
+                A2E05581D2F5AA60B6E080BACB67660D249822B8A55FA3D177AD121C5E77F9CC
+                AC61D223CA0AC1DB998663BBE03C3FB298D9FFA401D11304F7651A8DBEEB1EC1
+                711E28353300049304DF15EC1AA4E1D829F88E6052DDE535B39A09C60B4E173C
+                3A48A3D1776D11CCF4DC0EB3312E0D88FE54B077080D47AFE02782297597DBCC
+                6A22384870A6E0A521341A7DD756C17CC1417597DFCC6A203856707D4903B13B
+                5DB9B4EB04C7D65D7E33AB9860B2E042C1B6924792DB0577A47F17D3B7092E10
+                4CAEBB1E665611C138C1A982BB328DC25EC16BE911E62CC1EB25E31F770A3E2E
+                2F94341B1BD280E8F74BC2AFBB05BF524C3F3F40F0EB9247969D82EF79A0D46C
+                0C104C50AC47D954F288F2A46046BFDF9F997E967B647944304730A1CE3A99D9
+                284B03A2D7943C7EBC2BB82AF39AAB525AEEB1E66AC1D43AEA626615101C2C58
+                267831D308BCAF98723E205A921A9BF5E9778AAF7B51B05470701D7532B351A4
+                588F7292E086929EC31B820B0779FD45E977723D95DF094E94D7B1987517C161
+                8AAD00B7970C74AE161C32C8EB0F49BFB333F3FA3705970A0EADB24E66368A14
+                EB516609D6950C883E2B5830847C16089E2B19285D2BF8B4BC8EC5AC3B087A04
+                3F2C09ABBE2BF8C5503EF0A901FA65C940E92EC19582A3ABA893998D22C5063D
+                0B53E8343720BA51307318F99D965E931B28DD987A25DEF0A7CB79D65FF73B16
+                58069C96497B0B58D5822D43CDAC059B8155E9B5459F04CE058E194139CDAC09
+                52F875A5F2AB5F77A5318F61CFC1104C4DAFCDCD3CDD2A38DFE159B30E94C2AF
+                33151B0DE7C2AFCF0F167E1D42FE17A53C72E1D91B04331C9E35EB3082C30597
+                0BDEC97CB077086ED47EAC6E55ACAEBD31E555CC7FBBE0DB82C3DA5927331B45
+                29FA314FB18235177E7D5470561BEEB340F0584978769D60AEC3B3DDC983A3DD
+                E968625EC61999B4EDC0DF80BBDA709F3B535EDB336967108DD3516DB88F998D
+                26C5EAD773059B4BC2AF0FA8DFEAD736DC6F46CA33179EDD2438473E05AEEBB8
+                C7D17DA61121D1DCDC8CD7819B5BF068BB6E96F2BA25E55D741AB018F848BBEE
+                67666D269828B8581F3CFBB57FF8F50E41CF28DCB727E59D0BCFBE9C2230DEDC
+                B88BB80BD92552E8F3546029F0E181C93C0F5CD7CAF70CFA7E691CE5BD83175A
+                B03797D08AED05AF074E4C57FF30EC546202DA16C123AD288B99358162F5EB15
+                25E1D17705D70A26EE238FA332AFEDBB061DE44CBD9D6B955FC7F28EE2A438AF
+                9E356B0AC5E6C36729CE77CD855F1F127C6508F98CB8E148AF9F9FEE950BCFDE
+                ADD800D9E36A5DC07FC4EED0039C0DCCCDA46D03D602F754508EBBD3BDB665D2
+                E6020B7178D6AC7EA9B7F135C15325BD8DBB04270F31AFFDEA71A43C4E4EF7CC
+                F53A1E13AC70AFA3F3F90FD8F9A6038B809332695B813FB4E0A9AA0A93EE752B
+                F06226F954223C3BBDAAF2985981E2DC93CB157B8116BFDD770B6E111C398CFC
+                F6BBC791F23932DD3BB771D06B8A752C9E8ADEC1DCE3E86C9F21BEC1731FEA27
+                801B5AF0EF6A8B04E99EAB802733C93DC0126056A585B2B672C3D1A1141B0B2F
+                26BF57E83BC0BDC423435D6E05EE037664D216028B35C8E6C8D66C6E383AD73C
+                E0ABC0A44CDA23C0EF5BB0ABDA22FD5F0B761293C23666922711E332F32A2D94
+                B58D1B8E0EA4D89A6F31F9EEFEABC05F81072B2D54DE83447836375B7516B048
+                A33005DECC3214EB51FE911978DC2B58A398F63D927CDB32385AC8F314C16DCA
+                EF14F694E0E291E46BF5728FA3C328429A8B808F66929F016E079EABB450837B
+                1AB88D285BD174E0EC5427EB206E383A88E254F8A5C40639C570E62E603DB0BA
+                05BD5597AD4C2ACB6A6003B0BB903C9EA8CB1279C1654771C3D15966131FB4DC
+                A1479B8135C0BF2A2DD1D0BC4144593665D27A8828CBEC4A4B64FBC50D478750
+                6CFCBB1498C3C0BFDB5BC03A605DD9D2F73AA532AD25CA583C8F651CF0056099
+                BCB971C770C3D139CE4C576E69FADF894794B7AB2DD2D0A5B2AD26CA5A742830
+                3F5DD601DC707400C109C039C45EA1C5B34A5E22BECD738F014DB38928EBCB85
+                9FB788AD0E97284E9EB38673C3D1708A0FD539C47E1AC5D3D17A8901D1352DF8
+                4FC5451BB654C635C48CD2E200EEC1448F6A997C9053E37924BBF96610E1D769
+                99B427803F01CFB6E95EDB297F5CC81D813012CF027F263632FE44216D1A51D7
+                F50CE33C5B33EB4771D2FC8F04AF64264FBD27F899E0B8BACB395C82E3043F4F
+                75C86D6E7C957CE2BDD9C808BE9CB6DCDB93F980DDAF1813E8B8C74DC5E6434B
+                041B32F5DA933602CA1D26650DE1479586127C08380F389D8193BDB6017F011E
+                6867F83585437F5B927C49BBA236AD987EFE00F1C8720A7044BFE4F1C0A7889D
+                C236B506866FCDAC4CDA62EFE192351E7F147C7E14EED9F6B52AFBB8DFEC5497
+                DC9A9B87150DA73550C77573C702C5D926CB89ED008B118617886FEA6E183CDC
+                42F49C5E28FCBC45D47DB9E0F8CA4B65FBE486A361D298C572E04BC0E442F21E
+                621EC4DA16BC5775D9DAAD159BFCAC4DD79E42F264E23D58DE89E338DDCE7F90
+                E699496CAD978B963C4EF436DA157E6D8267883A3D9E493B9E3807B76D87645B
+                7BB8E16810C5496BE7138383C570E47BC49C8D0D2D78BFEAB28D9654970D44E3
+                51EC451D480C0EAF90CF9E6D1447559A650E71B0526EF5EB43C4CE5EAF8CE2FD
+                7700570C92365A5E21EA368781DB091E4D4C0ABB93D847D5CCFA088E10FC46F0
+                6626CAF086E007FA60D8B2ABA4FA5FA9FC510F6FA6F7A66BEB6F362282AF0B1E
+                CF845FF70A6ED218384E40302BD535F71E3C2658597719CD1A43708260B5F227
+                CDFF537089F2BB997715C164C1A5A9CEC5F76187E06687679BC183A33553CC94
+                5C017C96818DC3FBC480E8FDDD107EDD97149E5D4FD4B9189E9D444C7A5B219F
+                0267639D6086E01EE58F4BDC2458AAD86B744C104C502CADDF9C793F76A7F7CA
+                E1D99A39AA52A31462BC80585E9E6B1CF60073818FA9CA82D56F2AF990F30462
+                47F46F087EDC1AB8F9B159F713CC136C14F40EB246C4D707AF5EC53A169F0257
+                238F71D4443005F816713E8AFF0E43378E388FE5B2F41E5A0DFC1FB63E0B88DD
+                B6BCB3F7F01D466C33983B70DB2AE086A3068AB35F2FC5E7A6EE8F1E22747B4C
+                DD05198BDC70542C85125712A1C5893517A7934D043E07AC7478B67A8EAA546F
+                3CF16D792FFE0FBFBF7A89F7723C0D3AF6D2CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+                CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC3ADA7F014FC97BF6BB71E543000000
+                0049454E44AE426082}
+              FileName = 
+                'D:\Software\Dasturlash\Project\Talaba 29.2.2024\icon\Error_32px.' +
+                'png'
+            end>
+          Align = Client
+          Size.Width = 270.000000000000000000
+          Size.Height = 98.204513549804690000
+          Size.PlatformDefault = False
+        end
+        object Label2: TLabel
+          Align = Client
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 270.000000000000000000
+          Size.Height = 30.499633789062500000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claRed
+          TextSettings.HorzAlign = Center
+          TextSettings.WordWrap = False
+          Text = 'Serverda xatolik !'
+          TabOrder = 1
+        end
+        object error_text: TLabel
+          Align = Client
+          Size.Width = 270.000000000000000000
+          Size.Height = 71.825180053710940000
+          Size.PlatformDefault = False
+          TextSettings.VertAlign = Leading
+          Text = 'Text'
+          TabOrder = 2
+        end
+        object Button2: TButton
+          Align = Client
+          Size.Width = 270.000000000000000000
+          Size.Height = 37.470672607421880000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Takroran ulanish'
+          OnClick = Button2Click
+        end
+      end
+    end
+    object Loading: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Loading'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object AniIndicator1: TAniIndicator
+        Align = Center
+        Size.Width = 162.000000000000000000
+        Size.Height = 120.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object mainmenu: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'mainmenu'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object main: TTabControl
+        Align = Client
+        Size.Width = 334.000000000000000000
+        Size.Height = 432.000000000000000000
+        Size.PlatformDefault = False
+        TabHeight = 49.000000000000000000
+        TabIndex = 0
+        TabOrder = 1
+        TabPosition = None
+        Sizes = (
+          334s
+          432s
+          334s
+          432s)
+        object dars_jadvali: TTabItem
+          CustomIcon = <
+            item
+            end>
+          IsSelected = True
+          Size.Width = 8.000000000000000000
+          Size.Height = 8.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = 'dars_jadvali'
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+          object dars_jadvali_boshqaruv: TTabControl
+            Align = Client
+            Size.Width = 334.000000000000000000
+            Size.Height = 384.000000000000000000
+            Size.PlatformDefault = False
+            TabHeight = 49.000000000000000000
+            TabIndex = 2
+            TabOrder = 1
+            TabPosition = None
+            Sizes = (
+              334s
+              384s
+              334s
+              384s
+              334s
+              384s)
+            object dars: TTabItem
+              CustomIcon = <
+                item
+                end>
+              IsSelected = False
+              Size.Width = 8.000000000000000000
+              Size.Height = 8.000000000000000000
+              Size.PlatformDefault = False
+              StyleLookup = ''
+              TabOrder = 0
+              Text = 'dars'
+              ExplicitSize.cx = 43.000000000000000000
+              ExplicitSize.cy = 24.000000000000000000
+              object ListBox1: TListBox
+                Align = Client
+                Size.Width = 334.000000000000000000
+                Size.Height = 384.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 2
+                ShowSizeGrip = True
+                DisableFocusEffect = True
+                ItemHeight = 130.000000000000000000
+                DefaultItemStyles.ItemStyle = ''
+                DefaultItemStyles.GroupHeaderStyle = ''
+                DefaultItemStyles.GroupFooterStyle = ''
+                Viewport.Width = 334.000000000000000000
+                Viewport.Height = 384.000000000000000000
+              end
+            end
+            object dam: TTabItem
+              CustomIcon = <
+                item
+                end>
+              IsSelected = False
+              Size.Width = 8.000000000000000000
+              Size.Height = 8.000000000000000000
+              Size.PlatformDefault = False
+              StyleLookup = ''
+              TabOrder = 0
+              Text = 'dam'
+              ExplicitSize.cx = 44.000000000000000000
+              ExplicitSize.cy = 24.000000000000000000
+              object GridPanelLayout5: TGridPanelLayout
+                Align = Center
+                Size.Width = 200.000000000000000000
+                Size.Height = 192.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                ColumnCollection = <
+                  item
+                    Value = 100.000000000000000000
+                  end>
+                ControlCollection = <
+                  item
+                    Column = 0
+                    Control = Image3
+                    Row = 0
+                  end
+                  item
+                    Column = 0
+                    Control = Label9
+                    Row = 1
+                  end>
+                RowCollection = <
+                  item
+                    Value = 80.000000000000000000
+                  end
+                  item
+                    Value = 20.000000000000000000
+                  end>
+                object Image3: TImage
+                  MultiResBitmap.Height = 64
+                  MultiResBitmap.Width = 64
+                  MultiResBitmap = <
+                    item
+                      Width = 64
+                      Height = 64
+                      PNG = {
+                        89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+                        DE0000000473424954080808087C086488000001E849444154789CED99C94A43
+                        41104513F1AF44772EC4913882F32C0E88D327E8FF2A88319A1C17D904532D6F
+                        AAAEF7EC3AEBD0756FA5E1DDAE6AB51CC7711CC7499576D61F02A80868B7336B
+                        D060C2B2781DF006580B4802600A78659C176B6DEA00B3C0BB60FEC95A9B3AC0
+                        02D015CC3F586B530758023E05F377D6DAD4019605F303E0C25A9B3AC08A60BE
+                        0F9C596B5307E8003DC1FCA9B53675806DE05B307F6CAD4D1D602760FEA8C059
+                        95A0E13324784F30FF056C153CAF390D00F603E6374B9CD98C0600870CAFF96F
+                        F31B25CFAD7F03804B86DFF5517AC09A6AE1711DD3C09BE0FF59B3E875C0FCAA
+                        5A5159C72272CCD67B63003782F92E30AF5654D6118AD9F79A456F05F31FC09C
+                        5A5159879434F563B660BE12726A08254DFD98AD613E4F030827CD134DDFA302
+                        CC1A00EC06CCE74E9A85B16A00E1B0552869360AC261AB70D26C0CC01572DE58
+                        B7D6A60E72DE881EB64C209C3754C296E95E4E0218B42AD09575E758C7CD50D4
+                        3F65B2EC01593E657FE1DB61634ADF80AA897D2392BF01510066883DB9A90B0C
+                        8717D2E4E6D15A9B3A848717492C483B82F93E706EAD4D1DC2C38B247684D2A6
+                        28EEF0C20AE040309FCCF0425A9694DE143502C2CB92A89B221390DFEFD19725
+                        45299DBB29F97EFF0FAFC1DA0D55F290FC6328F906388EE3388E932E3F60FE81
+                        051DAF43420000000049454E44AE426082}
+                      FileName = 
+                        'D:\Software\Dasturlash\Project\Talaba 29.2.2024\icon\Sleep_64px.' +
+                        'png'
+                    end>
+                  Align = Client
+                  Size.Width = 200.000000000000000000
+                  Size.Height = 153.600006103515600000
+                  Size.PlatformDefault = False
+                end
+                object Label9: TLabel
+                  Align = Client
+                  StyledSettings = [Family, Style, FontColor]
+                  Size.Width = 200.000000000000000000
+                  Size.Height = 38.399993896484380000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 15.000000000000000000
+                  TextSettings.HorzAlign = Center
+                  Text = 'Bu kunda dars mavjud emas !'
+                  TabOrder = 1
+                end
+              end
+            end
+            object zagruska: TTabItem
+              CustomIcon = <
+                item
+                end>
+              IsSelected = True
+              Size.Width = 8.000000000000000000
+              Size.Height = 8.000000000000000000
+              Size.PlatformDefault = False
+              StyleLookup = ''
+              TabOrder = 0
+              Text = 'TabItem1'
+              ExplicitSize.cx = 69.000000000000000000
+              ExplicitSize.cy = 49.000000000000000000
+              object AniIndicator2: TAniIndicator
+                Align = Center
+                Size.Width = 117.000000000000000000
+                Size.Height = 111.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+          object Button8: TButton
+            Align = Top
+            StyledSettings = [Family, Size, Style]
+            Position.Y = 96.000000000000000000
+            Size.Width = 300.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            Text = 'Oxirgi yangilanish'
+            TextSettings.FontColor = claRed
+            Visible = False
+            OnClick = Button8Click
+          end
+          object ToolBar2: TToolBar
+            Size.Width = 334.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object GridPanelLayout4: TGridPanelLayout
+              Align = Fit
+              Size.Width = 288.000183105468800000
+              Size.Height = 48.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              ColumnCollection = <
+                item
+                  Value = 21.636363779703760000
+                end
+                item
+                  Value = 57.696970079210040000
+                end
+                item
+                  Value = 20.666666141086190000
+                end>
+              ControlCollection = <
+                item
+                  Column = 0
+                  Control = Button6
+                  Row = 0
+                end
+                item
+                  Column = 1
+                  Control = DateEdit1
+                  Row = 0
+                end
+                item
+                  Column = 2
+                  Control = Button7
+                  Row = 0
+                end>
+              RowCollection = <
+                item
+                  Value = 100.000000000000000000
+                end>
+              object Button6: TButton
+                Align = Client
+                Size.Width = 48.000000000000000000
+                Size.Height = 48.000000000000000000
+                Size.PlatformDefault = False
+                StyleLookup = 'arrowlefttoolbuttonbordered'
+                TabOrder = 1
+                Text = 'Button6'
+                OnClick = Button6Click
+              end
+              object DateEdit1: TDateEdit
+                Date = 45366.000000000000000000
+                WeekNumbers = True
+                Format = 'DD.MM.YYYY'
+                TodayDefault = True
+                OnChange = DateEdit1Change
+                Align = Client
+                Size.Width = 166.167358398437500000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 2
+                TextSettings.HorzAlign = Center
+                ParentShowHint = False
+                ShowHint = False
+              end
+              object Button7: TButton
+                Align = Client
+                Size.Width = 48.000000000000000000
+                Size.Height = 48.000000000000000000
+                Size.PlatformDefault = False
+                StyleLookup = 'arrowrighttoolbutton'
+                TabOrder = 0
+                Text = 'Button6'
+                OnClick = Button7Click
+              end
+            end
+          end
+        end
+        object Boshqa: TTabItem
+          CustomIcon = <
+            item
+            end>
+          IsSelected = False
+          Size.Width = 8.000000000000000000
+          Size.Height = 8.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = 'Boshqa'
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+        end
+      end
+      object ToolBar1: TToolBar
+        Size.Width = 334.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object sarlavha: TLabel
+          Align = Client
+          Size.Width = 334.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = 'Dars jadvali'
+          TabOrder = 0
+          object Button5: TButton
+            Align = FitLeft
+            Size.Width = 48.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'drawertoolbuttonbordered'
+            TabOrder = 2
+            Text = 'Button5'
+          end
+        end
+      end
+    end
+  end
+  object MultiView1: TMultiView
+    MasterButton = Button5
+    Mode = Drawer
+    NavigationPaneOptions.CollapsedWidth = 250.000000000000000000
+    ShadowOptions.Opacity = 0.500000000000000000
+    OnStartShowing = MultiView1StartShowing
+    Enabled = False
+    Size.Width = 297.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object GridPanelLayout6: TGridPanelLayout
+      Align = MostTop
+      Size.Width = 297.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          Value = 33.000000000000000000
+        end
+        item
+          Value = 67.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = Circle1
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = Layout2
+          Row = 0
+        end>
+      RowCollection = <
+        item
+          Value = 100.000000000000000000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object Circle1: TCircle
+        Align = Client
+        Fill.Bitmap.WrapMode = TileStretch
+        Fill.Kind = Bitmap
+        Size.Width = 98.010002136230470000
+        Size.Height = 105.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+      end
+      object Layout2: TLayout
+        Align = Client
+        Size.Width = 198.989990234375000000
+        Size.Height = 105.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object GridPanelLayout8: TGridPanelLayout
+          Align = Client
+          Size.Width = 198.989990234375000000
+          Size.Height = 105.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          ColumnCollection = <
+            item
+              Value = 100.000000000000000000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = ism
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = familiya
+              Row = 1
+            end
+            item
+              Column = 0
+              Control = kurs
+              Row = 2
+            end
+            item
+              Column = 0
+              Control = guruh
+              Row = 3
+            end>
+          RowCollection = <
+            item
+              Value = 24.434188141894020000
+            end
+            item
+              Value = 25.000000000000000000
+            end
+            item
+              Value = 25.484216495494930000
+            end
+            item
+              Value = 25.081595362611050000
+            end>
+          object ism: TLabel
+            Align = Client
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Size.Width = 193.989990234375000000
+            Size.Height = 20.655897140502930000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 20.000000000000000000
+            Text = 'Ism'
+            TabOrder = 4
+          end
+          object familiya: TLabel
+            Align = Client
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Size.Width = 193.989990234375000000
+            Size.Height = 21.250001907348630000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 20.000000000000000000
+            Text = 'Familiya'
+            TabOrder = 3
+          end
+          object kurs: TLabel
+            Align = Client
+            StyledSettings = [Family, FontColor]
+            Opacity = 0.600000023841857900
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Size.Width = 193.989990234375000000
+            Size.Height = 21.758422851562500000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00040000000200000004000000}
+            Text = 'kurs'
+            TabOrder = 2
+          end
+          object guruh: TLabel
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family, FontColor]
+            Opacity = 0.600000023841857900
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Size.Width = 193.989990234375000000
+            Size.Height = 21.335678100585940000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00040000000200000004000000}
+            Text = 'guruh talabasi'
+            TabOrder = 1
+          end
+        end
+      end
+    end
+    object SMESTRTAB: TTabControl
+      Align = Client
+      Size.Width = 297.000000000000000000
+      Size.Height = 375.000000000000000000
+      Size.PlatformDefault = False
+      TabHeight = 49.000000000000000000
+      TabIndex = 0
+      TabOrder = 1
+      TabPosition = None
+      Sizes = (
+        297s
+        375s
+        297s
+        375s)
+      object menu: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'menu'
+        ExplicitSize.cx = 51.000000000000000000
+        ExplicitSize.cy = 24.000000000000000000
+        object ListBox2: TListBox
+          Align = Client
+          Size.Width = 297.000000000000000000
+          Size.Height = 358.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          DisableFocusEffect = True
+          ItemIndex = 2
+          ItemHeight = 40.000000000000000000
+          Images = DataModule1.ImageList1
+          DefaultItemStyles.ItemStyle = ''
+          DefaultItemStyles.GroupHeaderStyle = ''
+          DefaultItemStyles.GroupFooterStyle = ''
+          Viewport.Width = 297.000000000000000000
+          Viewport.Height = 358.000000000000000000
+          object smestr: TListBoxItem
+            ItemData.Detail = 'SMESTR'
+            ItemData.Accessory = aCheckmark
+            ImageIndex = 1
+            Size.Width = 297.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'listboxitembottomdetail'
+            TabOrder = 0
+            Text = 'SMESTR'
+            OnClick = smestrClick
+          end
+          object ListBoxGroupHeader1: TListBoxGroupHeader
+            Position.Y = 40.000000000000000000
+            Size.Width = 297.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'listboxplainheader'
+            TabOrder = 1
+            Text = 'O'#39'quv Jarayoni'
+          end
+          object ListBoxItem2: TListBoxItem
+            IsSelected = True
+            ItemData.Accessory = aMore
+            ImageIndex = 0
+            Position.Y = 80.000000000000000000
+            Size.Width = 297.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'listboxitemnodetail'
+            TabOrder = 2
+            Text = 'Dars Jadvali'
+            OnClick = ListBoxItem2Click
+          end
+          object ListBoxItem3: TListBoxItem
+            TextSettings.FontColor = claWhite
+            StyledSettings = [Family, Size, Style, Other]
+            ItemData.Accessory = aMore
+            ImageIndex = 2
+            Position.Y = 120.000000000000000000
+            Size.Width = 297.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'listboxitemnodetail'
+            TabOrder = 3
+            Text = 'Fanlar'
+            OnClick = ListBoxItem3Click
+          end
+          object ListBoxItem4: TListBoxItem
+            ItemData.Accessory = aMore
+            ImageIndex = 3
+            Position.Y = 160.000000000000000000
+            Size.Width = 297.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'listboxitemnodetail'
+            TabOrder = 5
+            Text = 'Davomad'
+            OnClick = ListBoxItem4Click
+          end
+          object ListBoxItem5: TListBoxItem
+            ItemData.Accessory = aMore
+            ImageIndex = 5
+            Position.Y = 200.000000000000000000
+            Size.Width = 297.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'listboxitemnodetail'
+            TabOrder = 4
+            Text = 'Nazorat jadvali'
+            OnClick = ListBoxItem5Click
+          end
+          object ListBoxGroupHeader2: TListBoxGroupHeader
+            Position.Y = 240.000000000000000000
+            Size.Width = 297.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 6
+            Text = 'Boshqa'
+          end
+          object Chiqish: TListBoxItem
+            ImageIndex = 4
+            Position.Y = 280.000000000000000000
+            Size.Width = 297.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'listboxitemnodetail'
+            TabOrder = 7
+            Text = 'Chiqish'
+            OnClick = ChiqishClick
+          end
+        end
+        object Label3: TLabel
+          Align = MostBottom
+          Position.Y = 358.000000000000000000
+          Size.Width = 297.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'UlugbekDev v1.0'
+          TabOrder = 2
+        end
+      end
+      object smestrtabitem: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'smestrtabitem'
+        ExplicitSize.cx = 96.000000000000000000
+        ExplicitSize.cy = 24.000000000000000000
+        object smestrlar_royhati: TListBox
+          Align = Client
+          Size.Width = 297.000000000000000000
+          Size.Height = 375.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          DisableFocusEffect = True
+          ItemHeight = 30.000000000000000000
+          DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+          DefaultItemStyles.GroupHeaderStyle = ''
+          DefaultItemStyles.GroupFooterStyle = ''
+          OnItemClick = smestrlar_royhatiItemClick
+          Viewport.Width = 297.000000000000000000
+          Viewport.Height = 375.000000000000000000
+          object ListBoxItem1: TListBoxItem
+            ItemData.Accessory = aMore
+            Size.Width = 297.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = 'Joriy smestr'
+          end
+        end
+      end
+    end
+  end
+end

@@ -1,0 +1,533 @@
+unit main;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes,
+  System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.TabControl,
+  FMX.Layouts, FMX.Controls.Presentation, FMX.StdCtrls, FMX.ListBox,
+  FMX.Objects, System.IOUtils,
+  FMX.Edit, FMX.MultiView, FMX.DateTimeCtrls, interbase,
+  FireDAC.Phys.IBDef, FireDAC.Stan.Intf, FireDAC.Phys, FireDAC.Phys.IBBase,
+  FireDAC.Phys.IB, System.JSON, System.Net.URLClient, FMX.DialogService,
+  FMX.SearchBox{$IFDEF MSWINDOWS}, Winapi.Windows{$ENDIF};
+
+type
+  Tmainform = class(TForm)
+    maintab: TTabControl;
+    universitetlar: TTabItem;
+    login: TTabItem;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label1: TLabel;
+    error: TTabItem;
+    GridPanelLayout2: TGridPanelLayout;
+    Image1: TImage;
+    Label2: TLabel;
+    Label4: TLabel;
+    Label7: TLabel;
+    error_text: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Button2: TButton;
+    Loading: TTabItem;
+    AniIndicator1: TAniIndicator;
+    GridPanelLayout3: TGridPanelLayout;
+    Button3: TButton;
+    Button4: TButton;
+    Layout1: TLayout;
+    mainmenu: TTabItem;
+    main: TTabControl;
+    dars_jadvali: TTabItem;
+    MultiView1: TMultiView;
+    ToolBar1: TToolBar;
+    Button5: TButton;
+    sarlavha: TLabel;
+    GridPanelLayout4: TGridPanelLayout;
+    ToolBar2: TToolBar;
+    Button6: TButton;
+    DateEdit1: TDateEdit;
+    Button7: TButton;
+    dars_jadvali_boshqaruv: TTabControl;
+    dars: TTabItem;
+    dam: TTabItem;
+    ListBox1: TListBox;
+    GridPanelLayout5: TGridPanelLayout;
+    Image3: TImage;
+    Label9: TLabel;
+    GridPanelLayout6: TGridPanelLayout;
+    Circle1: TCircle;
+    Layout2: TLayout;
+    ism: TLabel;
+    familiya: TLabel;
+    kurs: TLabel;
+    ListBox2: TListBox;
+    smestr: TListBoxItem;
+    ListBoxGroupHeader1: TListBoxGroupHeader;
+    ListBoxItem2: TListBoxItem;
+    SMESTRTAB: TTabControl;
+    menu: TTabItem;
+    smestrtabitem: TTabItem;
+    smestrlar_royhati: TListBox;
+    ListBoxItem1: TListBoxItem;
+    Button8: TButton;
+    zagruska: TTabItem;
+    AniIndicator2: TAniIndicator;
+    guruh: TLabel;
+    GridPanelLayout8: TGridPanelLayout;
+    ListBoxItem3: TListBoxItem;
+    Boshqa: TTabItem;
+    ListBoxItem4: TListBoxItem;
+    universitetbox: TListBox;
+    SearchBox1: TSearchBox;
+    ListBoxGroupHeader2: TListBoxGroupHeader;
+    PasswordEditButton1: TPasswordEditButton;
+    Chiqish: TListBoxItem;
+    Label3: TLabel;
+    ListBoxItem5: TListBoxItem;
+    procedure Edit1KeyUp(Sender: TObject; var Key: Word; var KeyChar: Char;
+      Shift: TShiftState);
+    procedure Edit2KeyUp(Sender: TObject; var Key: Word; var KeyChar: Char;
+      Shift: TShiftState);
+    procedure FormShow(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Edit1KeyDown(Sender: TObject; var Key: Word; var KeyChar: Char;
+      Shift: TShiftState);
+    procedure Edit2KeyDown(Sender: TObject; var Key: Word; var KeyChar: Char;
+      Shift: TShiftState);
+    procedure Button7Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure ListBoxItem2Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure smestrClick(Sender: TObject);
+    procedure smestrlar_royhatiItemClick(const Sender: TCustomListBox;
+      const Item: TListBoxItem);
+    procedure DateEdit1Change(Sender: TObject);
+    procedure Button8Click(Sender: TObject);
+    procedure MultiView1StartShowing(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure ListBoxItem3Click(Sender: TObject);
+    procedure ListBoxItem4Click(Sender: TObject);
+    procedure universitetboxItemClick(const Sender: TCustomListBox;
+      const Item: TListBoxItem);
+    procedure ChiqishClick(Sender: TObject);
+    procedure ListBoxItem5Click(Sender: TObject);
+  private
+
+  public
+    stream: TStream;
+    joriy_smestr: string;
+    token: string;
+    internet: boolean;
+    tre: Char;
+    function smestr_id: integer;
+  end;
+
+var
+  mainform: Tmainform;
+
+implementation
+
+{$R *.fmx}
+{$R *.SmXhdpiPh.fmx ANDROID}
+{$R *.NmXhdpiPh.fmx ANDROID}
+
+uses data, url, JSON, malumotlar_tahlil, fanlar_bolim, davomad;
+
+procedure Tmainform.Button2Click(Sender: TObject);
+begin
+  FormShow(Sender);
+end;
+
+procedure Tmainform.Button3Click(Sender: TObject);
+var
+  udata: Tdatabase;
+begin
+  maintab.ActiveTab := universitetlar;
+  udata.create;
+  udata.delete_universitet(strtoint(udata.read_universitet(0)));
+  udata.stop;
+{$IFDEF MSWINDOWS}
+  JSON.universitet_json('');
+  maintab.ActiveTab := universitetlar;
+{$ELSE}
+  DataModule1.s := '';
+  DataModule1.start;
+{$ENDIF}
+end;
+
+procedure Tmainform.Button4Click(Sender: TObject);
+var
+  udata: Tdatabase;
+  string2bite: TStringStream;
+  k: string;
+begin
+  if (Edit1.Text = '') or (Edit2.Text = '') then
+  begin
+    ShowMessage('Maydonlar to`liq to`ldirilmagan.');
+    exit
+  end;
+  udata.create;
+  mainform.Caption := udata.read_universitet(1);
+  DataModule1.NetHTTPClient1.ContentType := 'application/json';
+  DataModule1.NetHTTPClient1.AcceptEncoding := 'UTF-8';
+  string2bite := TStringStream.create('{"login": "' + Edit1.Text +
+    '","password": "' + Edit2.Text + '"}');
+  stream := TMemoryStream.create;
+  k := udata.read_universitet(2) + url.auth;
+  DataModule1.NetHTTPClient1.Post(udata.read_universitet(2) + url.auth,
+    string2bite, stream);
+  DataModule1.amal := '1';
+  maintab.ActiveTab := Loading;
+  AniIndicator1.Enabled := True;
+  udata.stop;
+end;
+
+procedure Tmainform.Button6Click(Sender: TObject);
+var
+  dat: TDateTime;
+begin
+  dat := DateEdit1.Date;
+  dat := dat - 1;
+  DateEdit1.Date := dat;
+  DateEdit1Change(Sender);
+end;
+
+procedure Tmainform.Button7Click(Sender: TObject);
+var
+  dat: TDateTime;
+begin
+  dat := DateEdit1.Date;
+  dat := dat + 1;
+  DateEdit1.Date := dat;
+  DateEdit1Change(Sender);
+end;
+
+procedure Tmainform.Button8Click(Sender: TObject);
+begin
+  if token <> '' then
+    ListBoxItem2Click(ListBox2)
+  else
+    FormShow(Sender)
+end;
+
+procedure Tmainform.ChiqishClick(Sender: TObject);
+var
+  udata: Tdatabase;
+begin
+  MultiView1.HideMaster;
+{$IFDEF MSWINDOWS}
+  case MessageBox(0, 'Haqiqatdan ham account dan chiqmoqchimisiz ?', 'Xabar',
+    MB_YESNO + MB_ICONWARNING) of
+    mrYes:
+      begin
+        udata.clear_db;
+        FormShow(nil);
+        MultiView1.Enabled := false;
+      end;
+    mrNo:
+      exit;
+  end;
+{$ELSE}
+  TDialogService.MessageDialog('Haqiqatdan ham account dan chiqmoqchimisiz ?',
+    TMsgDlgType.mtInformation, [TMsgDlgBtn.mbYes, TMsgDlgBtn.mbNo],
+    TMsgDlgBtn.mbNo, 0,
+    procedure(const AResult: TModalResult)
+    begin
+      case AResult of
+        mrYes:
+          begin
+            udata.clear_db;
+            if FileExists(Tpath.GetDocumentsPath + '/avatar.jpg') then
+              TFile.Delete(Tpath.GetDocumentsPath + '/avatar.jpg');
+            FormShow(nil);
+            MultiView1.Enabled := false;
+          end;
+        mrNo:
+          exit;
+      end;
+    end);
+{$ENDIF}
+end;
+
+procedure Tmainform.DateEdit1Change(Sender: TObject);
+begin
+  DataModule1.amal := 'D';
+  malumotlar_tahlil.dars_jadvali;
+end;
+
+procedure Tmainform.Edit1KeyDown(Sender: TObject; var Key: Word;
+var KeyChar: Char; Shift: TShiftState);
+begin
+{$IFDEF ANDROID}
+  if Edit1.Text <> '' then
+    Label5.Text := Edit1.TextPrompt
+  else
+    Label5.Text := '';
+{$ELSE}
+  exit;
+{$ENDIF}
+end;
+
+procedure Tmainform.Edit1KeyUp(Sender: TObject; var Key: Word;
+var KeyChar: Char; Shift: TShiftState);
+begin
+  if Edit1.Text <> '' then
+    Label5.Text := Edit1.TextPrompt
+  else
+    Label5.Text := '';
+end;
+
+procedure Tmainform.Edit2KeyDown(Sender: TObject; var Key: Word;
+var KeyChar: Char; Shift: TShiftState);
+begin
+{$IFDEF ANDROID}
+  if Edit2.Text <> '' then
+    Label6.Text := Edit2.TextPrompt
+  else
+    Label6.Text := '';
+{$ELSE}
+  exit;
+{$ENDIF}
+end;
+
+procedure Tmainform.Edit2KeyUp(Sender: TObject; var Key: Word;
+var KeyChar: Char; Shift: TShiftState);
+begin
+  if Edit2.Text <> '' then
+    Label6.Text := Edit2.TextPrompt
+  else
+    Label6.Text := '';
+end;
+
+procedure Tmainform.FormCreate(Sender: TObject);
+begin
+  fanlar_bolim.fanlar_haqida := TFrame1.create(Application);
+  fanlar_haqida.Parent := Boshqa;
+  davomad_bolim := TFrame7.create(Application);
+  davomad_bolim.Parent := Boshqa;
+end;
+
+procedure Tmainform.FormShow(Sender: TObject);
+var
+  udata: Tdatabase;
+begin
+  udata.create;
+  if (udata.read_universitet(0) <> '') and (udata.read_universitet(1) <> '') and
+    (udata.read_universitet(2) <> '') then
+  begin
+    mainform.Caption := udata.read_universitet(1);
+    if (udata.read_user(0) <> '') and (udata.read_user(1) <> '') then
+    begin
+      Edit1.Text := udata.read_user(0);
+      Edit2.Text := udata.read_user(1);
+      Button4Click(Sender);
+    end
+    else
+    begin
+      maintab.ActiveTab := login;
+      AniIndicator1.Enabled := false;
+      mainform.Label4.Text := udata.read_universitet(1);
+      mainform.Label7.Text := '';
+    end;
+  end
+  else
+  begin
+    maintab.ActiveTab := universitetlar;
+    Edit1.Text := '';
+    Edit2.Text := '';
+{$IFDEF MSWINDOWS}
+    JSON.universitet_json('');
+{$ELSE}
+    DataModule1.s := '';
+    DataModule1.start;
+{$ENDIF}
+  end;
+  udata.stop;
+  // maintab.ActiveTab := mainmenu;
+end;
+
+procedure Tmainform.ListBoxItem2Click(Sender: TObject);
+var
+  udata: Tdatabase;
+begin
+  // Dars jadvali
+  udata.create;
+  main.ActiveTab := dars_jadvali;
+  sarlavha.Text := ListBoxItem2.Text;
+  dars_jadvali_boshqaruv.ActiveTab := zagruska;
+  AniIndicator2.Enabled := True;
+  Button8.Visible := false;
+  if (token <> '') then
+  begin
+    DataModule1.NetHTTPClient1.CustomHeaders['Authorization'] := 'Bearer ' +
+      mainform.token;
+    DataModule1.NetHTTPClient1.Get(udata.read_universitet(2) + url.scheduel +
+      '?week=2937&semester=' + inttostr(smestr_id), stream);
+    DataModule1.amal := 'd';
+  end
+  else
+  begin
+    if udata.readjson('dars').javob then
+      malumotlar_tahlil.dars_jadvali
+  end;
+  MultiView1.HideMaster;
+end;
+
+procedure Tmainform.ListBoxItem3Click(Sender: TObject);
+var
+  udata: Tdatabase;
+  k: Tujsonvalue;
+begin
+  udata.create;
+  davomad_bolim.Visible := false;
+  fanlar_haqida.Visible := True;
+  main.ActiveTab := Boshqa;
+  fanlar_haqida.TabControl1.ActiveTab := fanlar_haqida.Loading;
+  fanlar_haqida.AniIndicator1.Enabled := True;
+  MultiView1.HideMaster;
+  fanlar_haqida.Button1.Visible := false;
+  sarlavha.Text := ListBoxItem3.Text;
+  if token <> '' then
+  begin
+    fanlar_bolim.fanlar_haqida.mal_fan := TMemoryStream.create;
+    fanlar_bolim.fanlar_haqida.NetHTTPClient1.CustomHeaders['Authorization'] :=
+      'Bearer ' + mainform.token;
+    fanlar_bolim.fanlar_haqida.NetHTTPClient1.Get(udata.read_universitet(2) +
+      url.fanlar + '?semester=' + inttostr(smestr_id),
+      fanlar_bolim.fanlar_haqida.mal_fan);
+  end
+  else
+  begin
+    k := udata.readjson('fan');
+    case k.javob of
+      True:
+        begin
+          JSON.fan_malumotlari(k.value);
+          fanlar_haqida.Button1.Text := 'Oxirgi yangilanish ' + k.datetime;
+          fanlar_haqida.Button1.Visible := True;
+          fanlar_haqida.TabControl1.ActiveTab := fanlar_haqida.fanlar;
+          fanlar_haqida.AniIndicator1.Enabled := false;
+        end;
+      false:
+        begin
+          FormShow(Sender);
+        end;
+    end;
+  end;
+end;
+
+procedure Tmainform.ListBoxItem4Click(Sender: TObject);
+var
+  udata: Tdatabase;
+begin
+  udata.create;
+  tre := 'd';
+  davomad_bolim.TabControl1.ActiveTab := davomad_bolim.TabItem2;
+  davomad_bolim.AniIndicator1.Enabled := True;
+  fanlar_haqida.Visible := false;
+  davomad_bolim.Visible := True;
+  davomad_bolim.Button1.Visible := false;
+  MultiView1.HideMaster;
+  sarlavha.Text := 'Davomad';
+  mainform.main.ActiveTab := mainform.Boshqa;
+  if token <> '' then
+  begin
+    davomad_bolim.strema := TMemoryStream.create;
+    davomad_bolim.NetHTTPClient1.CustomHeaders['Authorization'] := 'Bearer ' +
+      mainform.token;
+    davomad_bolim.NetHTTPClient1.Get(udata.read_universitet(2) +
+      url.talaba_davomadi + '?semester=' + inttostr(mainform.smestr_id),
+      davomad_bolim.strema);
+  end
+  else
+  begin
+    malumotlar_tahlil.davomad_tahlil;
+  end;
+end;
+
+procedure Tmainform.ListBoxItem5Click(Sender: TObject);
+var
+  udata: Tdatabase;
+begin
+  udata.create;
+  tre := 'n';
+  davomad_bolim.TabControl1.ActiveTab := davomad_bolim.TabItem2;
+  davomad_bolim.AniIndicator1.Enabled := True;
+  fanlar_haqida.Visible := false;
+  davomad_bolim.Visible := True;
+  davomad_bolim.Button1.Visible := false;
+  MultiView1.HideMaster;
+  sarlavha.Text := 'Nazorat jadvali';
+  mainform.main.ActiveTab := mainform.Boshqa;
+  if token <> '' then
+  begin
+    davomad_bolim.strema := TMemoryStream.create;
+    davomad_bolim.NetHTTPClient2.CustomHeaders['Authorization'] := 'Bearer ' +
+      mainform.token;
+    davomad_bolim.NetHTTPClient2.Get(udata.read_universitet(2) +
+      url.nazorat_jadvali + '?semester=' + inttostr(mainform.smestr_id),
+      davomad_bolim.strema);
+  end
+  else
+  begin
+    malumotlar_tahlil.nazorat_tahlil;
+  end;
+end;
+
+procedure Tmainform.MultiView1StartShowing(Sender: TObject);
+begin
+  SMESTRTAB.ActiveTab := menu;
+end;
+
+procedure Tmainform.smestrClick(Sender: TObject);
+begin
+  SMESTRTAB.ActiveTab := smestrtabitem;
+end;
+
+procedure Tmainform.smestrlar_royhatiItemClick(const Sender: TCustomListBox;
+const Item: TListBoxItem);
+begin
+  SMESTRTAB.ActiveTab := menu;
+  if smestrlar_royhati.Items.IndexOf(Item.Text) = 0 then
+    smestr.ItemData.Detail := joriy_smestr
+  else
+    smestr.ItemData.Detail := Item.Text;
+  MultiView1.HideMaster;
+  ListBoxItem2Click(ListBox2);
+  ListBox2.ItemIndex := 2;
+end;
+
+function Tmainform.smestr_id: integer;
+begin
+  if smestr.ItemData.Detail <> 'SMESTR' then
+  begin
+    if smestr.ItemData.Detail[2] <> '-' then
+      Result := 10 + strtoint(smestr.ItemData.Detail[1] +
+        smestr.ItemData.Detail[2])
+    else
+      Result := 10 + strtoint(smestr.ItemData.Detail[1])
+  end;
+end;
+
+procedure Tmainform.universitetboxItemClick(const Sender: TCustomListBox;
+const Item: TListBoxItem);
+begin
+  Label4.Text := '';
+  Edit1.Enabled := false;
+  Edit2.Enabled := false;
+  Button3.Enabled := false;
+  Button4.Enabled := false;
+  maintab.ActiveTab := login;
+  Label7.Text := '';
+{$IFDEF MSWINDOWS}
+  JSON.universitet_json(universitetbox.Items.Strings[universitetbox.ItemIndex]);
+{$ELSE}
+  DataModule1.s := universitetbox.Items.Strings[universitetbox.ItemIndex];
+  DataModule1.start;
+{$ENDIF}
+end;
+
+end.

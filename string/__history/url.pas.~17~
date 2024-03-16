@@ -1,0 +1,15 @@
+﻿unit url;
+
+interface
+
+const
+  universitetlar = 'https://student.buxdu.uz/rest/v1/public/university-list'; //Universitetlar
+  auth = 'auth/login'; // Authorization token
+  me = 'account/me'; // Talaba malumotlari
+  scheduel = 'education/schedule'; // Dars jadvali
+  smestr = 'education/semesters';  //smestrlar
+  fanlar='education/subject-list'; //Fanlar va Fan natijalari.
+
+implementation
+
+end.

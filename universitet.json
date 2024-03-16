@@ -1,0 +1,1582 @@
+{
+  "success": true,
+  "error": null,
+  "data": [
+    {
+      "code": "387",
+      "name": "Abdulla Avloniy nomidagi Xalq taʼlimi muammolarini o‘rganish va istiqbollarini belgilash ilmiy-tadqiqot instituti",
+      "api_url": "https://student.avloniy.uz/rest/v1/",
+      "student_url": "https://student.avloniy.uz/",
+      "employee_url": "https://hemis.avloniy.uz/"
+    },
+    {
+      "code": "416",
+      "name": "Akfa universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "457",
+      "name": "ALFRAGANUS UNIVERSITY",
+      "api_url": "https://student.alfraganusuniversity.uz/rest/v1/",
+      "student_url": "https://student.alfraganusuniversity.uz/",
+      "employee_url": "https://hemis.alfraganusuniversity.uz/"
+    },
+    {
+      "code": "446",
+      "name": "Andijon davlat chet tillari instituti",
+      "api_url": "https://student.adchti.uz/rest/v1/",
+      "student_url": "https://student.adchti.uz/",
+      "employee_url": "https://hemis.adchti.uz/"
+    },
+    {
+      "code": "316",
+      "name": "Andijon davlat pedagogika instituti",
+      "api_url": "https://student.adpi.uz/rest/v1/",
+      "student_url": "https://student.adpi.uz/",
+      "employee_url": "https://hemis.adpi.uz/"
+    },
+    {
+      "code": "361",
+      "name": "Andijon davlat tibbiyot instituti",
+      "api_url": "https://student.adti.uz/rest/v1/",
+      "student_url": "https://student.adti.uz/",
+      "employee_url": "https://hemis.adti.uz/"
+    },
+    {
+      "code": "301",
+      "name": "Andijon davlat universiteti",
+      "api_url": "https://student.adu.uz/rest/v1/",
+      "student_url": "https://student.adu.uz/",
+      "employee_url": "https://hemis.adu.uz/"
+    },
+    {
+      "code": "467",
+      "name": "Andijon iqtisodiyot va pedagokika universiteti",
+      "api_url": "https://student.aipu.uz/rest/v1/",
+      "student_url": "https://student.aipu.uz/",
+      "employee_url": "https://hemis.aipu.uz/"
+    },
+    {
+      "code": "404",
+      "name": "Andijon iqtisodiyot va qurilish instituti",
+      "api_url": "https://student.hemis.uz/rest/v1/",
+      "student_url": "https://student.hemis.uz/",
+      "employee_url": "https://hemis.aiqi.uz/"
+    },
+    {
+      "code": "303",
+      "name": "Andijon mashinasozlik instituti",
+      "api_url": "https://student.andmiedu.uz/rest/v1/",
+      "student_url": "https://student.andmiedu.uz/",
+      "employee_url": "https://hemis.anmdiedu.uz/"
+    },
+    {
+      "code": "371",
+      "name": "Andijon qishloq xo'jaligi va agrotexnologiyalar instituti ",
+      "api_url": "https://student.andqxai.uz/rest/v1/",
+      "student_url": "https://student.andqxai.uz/",
+      "employee_url": "https://hemis.andqxai.uz/"
+    },
+    {
+      "code": "494",
+      "name": "Angren universiteti",
+      "api_url": "https://student.auniver.uz/rest/v1/",
+      "student_url": "https://student.auniver.uz/",
+      "employee_url": "https://hemis.auniver.uz/"
+    },
+    {
+      "code": "485",
+      "name": "Aniq va ijtimoiy fanlar universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "409",
+      "name": "Astraxan davlat texnika universitetining Toshkent viloyatidagi filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "478",
+      "name": "Axborot Texnologiyalari va menejment universiteti",
+      "api_url": "https://student.atmu.uz/rest/v1/",
+      "student_url": "https://student.atmu.uz/",
+      "employee_url": "https://hemis.atmu.uz/"
+    },
+    {
+      "code": "346",
+      "name": "Berdaq nomidagi Qoraqalpoq davlat universiteti",
+      "api_url": "https://student.karsu.uz/rest/v1/",
+      "student_url": "https://student.karsu.uz/",
+      "employee_url": "https://hemis.karsu.uz/"
+    },
+    {
+      "code": "471",
+      "name": "Biznes va tadbirkorlik oliy maktabi",
+      "api_url": "https://student.gsbe.uz/rest/v1/",
+      "student_url": "https://student.gsbe.uz/",
+      "employee_url": "https://hemis.gsbe.uz/"
+    },
+    {
+      "code": "443",
+      "name": "Botir Zokirov nomidagi Milliy estrada san'ati instituti",
+      "api_url": "https://student.uzmesi.uz/rest/v1/",
+      "student_url": "https://student.uzmesi.uz/",
+      "employee_url": "https://hemis.uzmesi.uz/"
+    },
+    {
+      "code": "491",
+      "name": "British Management University in Tashkent",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "322",
+      "name": "Buxoro davlat pedagogika instituti",
+      "api_url": "https://student.buxdpi.uz/rest/v1/",
+      "student_url": "https://student.buxdpi.uz/",
+      "employee_url": "https://hemis.buxdpi.uz/"
+    },
+    {
+      "code": "362",
+      "name": "Buxoro davlat tibbiyot instituti",
+      "api_url": "https://student.bsmi.uz/rest/v1/",
+      "student_url": "https://student.bsmi.uz/",
+      "employee_url": "https://hemis.bsmi.uz/"
+    },
+    {
+      "code": "304",
+      "name": "Buxoro davlat universiteti",
+      "api_url": "https://student.buxdu.uz/rest/v1/",
+      "student_url": "https://student.buxdu.uz/",
+      "employee_url": "https://hemis.buxdu.uz/"
+    },
+    {
+      "code": "447",
+      "name": "Buxoro innovatsion tibbiyot instituti",
+      "api_url": "https://student.biti.uz/rest/v1/",
+      "student_url": "https://student.biti.uz/",
+      "employee_url": "https://hemis.biti.uz/"
+    },
+    {
+      "code": "434",
+      "name": "Buxoro innovatsiyalar universiteti",
+      "api_url": "https://student.buxiu.uz/rest/v1/",
+      "student_url": "https://student.buxiu.uz/",
+      "employee_url": "https://hemis.buxiu.uz/"
+    },
+    {
+      "code": "305",
+      "name": "Buxoro muhandislik-texnologiya instituti",
+      "api_url": "https://student.bmti.uz/rest/v1/",
+      "student_url": "https://student.bmti.uz/",
+      "employee_url": "https://hemis.bmti.uz/"
+    },
+    {
+      "code": "438",
+      "name": "Buxoro psixologiya va xorijiy tillar instituti",
+      "api_url": "https://student.buxpxti.uz/rest/v1/",
+      "student_url": "https://student.buxpxti.uz/",
+      "employee_url": "https://hemis.buxpxti.uz/"
+    },
+    {
+      "code": "492",
+      "name": "Central Asian Medical University tibbiyot universiteti",
+      "api_url": "https://student.camuf.uz/rest/v1/",
+      "student_url": "https://student.camuf.uz/",
+      "employee_url": "https://hemis.camuf.uz/"
+    },
+    {
+      "code": "354",
+      "name": "Chirchiq davlat pedagogika universiteti",
+      "api_url": "https://student.cspi.uz/rest/v1/",
+      "student_url": "https://student.cspi.uz/",
+      "employee_url": "https://hemis.cspi.uz/"
+    },
+    {
+      "code": "359",
+      "name": "“Collegium Humanum” Varshava menejment universiteti Andijon filiali",
+      "api_url": "https://student.humanum.uz/rest/v1/",
+      "student_url": "https://student.humanum.uz/",
+      "employee_url": "https://hemis.humanum.uz/"
+    },
+    {
+      "code": "482",
+      "name": "Digital university",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "431",
+      "name": "D.I.Mendeleev nomidagi Rossiya kimyo-texnologiya universiteti Federal davlat byudjeti oliy taʼlim muassasasining Toshkent filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "444",
+      "name": "Diplomat University",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "339",
+      "name": "EMU-UNIVERSITY",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "342",
+      "name": "Farg‘ona davlat universiteti",
+      "api_url": "https://student.fdu.uz/rest/v1/",
+      "student_url": "https://student.fdu.uz/",
+      "employee_url": "https://hemis.fdu.uz/"
+    },
+    {
+      "code": "344",
+      "name": "Farg‘ona jamoat salomatligi tibbiyot instituti",
+      "api_url": "https://student.fjsti.uz/rest/v1/",
+      "student_url": "https://student.fjsti.uz/",
+      "employee_url": "https://hemis.fjsti.uz/"
+    },
+    {
+      "code": "343",
+      "name": "Farg‘ona politexnika instituti",
+      "api_url": "https://student.ferpi.uz/rest/v1/",
+      "student_url": "https://student.ferpi.uz/",
+      "employee_url": "https://hemis.ferpi.uz/"
+    },
+    {
+      "code": "495",
+      "name": "Farg'ona shahridagi Koreya xalqaro universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "439",
+      "name": "Farmatsevtika ta'lim va tadqiqot instituti",
+      "api_url": "https://student.ftti.uz/rest/v1/",
+      "student_url": "https://student.ftti.uz/",
+      "employee_url": "https://hemis.ftti.uz/"
+    },
+    {
+      "code": "408",
+      "name": "Federal davlat avtonom oliy taʼlim muassasasi Milliy texnologik tadqiqotlar universiteti MISiS ning Olmaliq shahridagi filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "403",
+      "name": "Geologiya fanlari universiteti",
+      "api_url": "https://student.uzgeouniver.uz/rest/v1/",
+      "student_url": "https://student.uzgeouniver.uz/",
+      "employee_url": "https://tktiyf.e-edu.uz/"
+    },
+    {
+      "code": "453",
+      "name": "Guliston davlat pedagogika instituti",
+      "api_url": "https://student.gspi.uz/rest/v1/",
+      "student_url": "https://student.gspi.uz/",
+      "employee_url": "https://hemis.gspi.uz/"
+    },
+    {
+      "code": "307",
+      "name": "Guliston davlat universiteti",
+      "api_url": "https://student.guldu.uz/rest/v1/",
+      "student_url": "https://student.guldu.uz/",
+      "employee_url": "https://hemis.guldu.uz/"
+    },
+    {
+      "code": "419",
+      "name": "G.V.Plexanov nomli Rossiya iqtisodiyot universiteti Toshkent filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "999",
+      "name": "Hemis testlash axborot tizimi",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "499",
+      "name": "Ijtimoiy va siyosiy fanlar instituti",
+      "api_url": "https://student.isfi.uz/rest/v1/",
+      "student_url": "https://student.isfi.uz/",
+      "employee_url": "https://hemis.isfi.uz/"
+    },
+    {
+      "code": "417",
+      "name": "I.M.Gubkin nomidagi Rossiya davlat neft va gaz universiteti Toshkent shahridagi filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "520",
+      "name": "Imom Buxoriy nomidagi Toshkent islom instituti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "473",
+      "name": "IMPULS  tibbiyot instituti",
+      "api_url": "https://student.impulsmi.uz/rest/v1/",
+      "student_url": "https://student.impulsmi.uz/",
+      "employee_url": "https://hemis.impulsmi.uz/"
+    },
+    {
+      "code": "480",
+      "name": "Ipak yo‘li innovatsiyalar universiteti",
+      "api_url": "https://student.iyiu.uz/rest/v1/",
+      "student_url": "https://student.iyiu.uz/",
+      "employee_url": "https://hemis.iyiu.uz/"
+    },
+    {
+      "code": "396",
+      "name": "\"Ipak yo'li\" turizm va madaniy meros xalqaro universiteti",
+      "api_url": "https://student.univ-silkroad.uz/rest/v1/",
+      "student_url": "https://student.univ-silkroad.uz/",
+      "employee_url": "https://hemis.univ-silkroad.uz/"
+    },
+    {
+      "code": "460",
+      "name": "Iqtisodiyot va pedagogika universiteti",
+      "api_url": "https://student.ipu-edu.uz/rest/v1/",
+      "student_url": "https://student.ipu-edu.uz/",
+      "employee_url": "https://hemis.ipu-edu.uz/"
+    },
+    {
+      "code": "509",
+      "name": "ISFT instituti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "436",
+      "name": "IT Park University",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "350",
+      "name": "Jahon iqtisodiyoti va diplomatiya universiteti",
+      "api_url": "https://student.uwed.uz/rest/v1/",
+      "student_url": "https://student.uwed.uz/",
+      "employee_url": "https://hemis.uwed.uz/"
+    },
+    {
+      "code": "523",
+      "name": "Jahon iqtisodiyoti va diplomatiya universiteti huzuridagi Diplomatik akademiya",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "454",
+      "name": "Jamoat xavfsizligi universiteti",
+      "api_url": "https://student.mgjxu.uz/rest/v1/",
+      "student_url": "https://student.mgjxu.uz/",
+      "employee_url": "https://hemis.mgjxu.uz/"
+    },
+    {
+      "code": "498",
+      "name": "Japan Digital University",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "515",
+      "name": "Jismoniy Tarbiya va Sport Ilmiy Tadqiqotlar Institut",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "351",
+      "name": "Jizzax davlat pedagogika universiteti",
+      "api_url": "https://student.jdpu.uz/rest/v1/",
+      "student_url": "https://student.jdpu.uz/",
+      "employee_url": "https://hemis.jdpu.uz/"
+    },
+    {
+      "code": "308",
+      "name": "Jizzax politexnika institutini",
+      "api_url": "https://student.jizpi.uz/rest/v1/",
+      "student_url": "https://student.jizpi.uz/",
+      "employee_url": "https://hemis.jizpi.uz/"
+    },
+    {
+      "code": "469",
+      "name": "Jizzax shahridagi Qozon Federal universiteti filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "329",
+      "name": "Kamoliddin Behzod Milliy rassomlik va dizayn instituti",
+      "api_url": "https://student.mrdi.uz/rest/v1/",
+      "student_url": "https://student.mrdi.uz/",
+      "employee_url": "https://hemis.mrdi.uz/"
+    },
+    {
+      "code": "410",
+      "name": "Latviyaning Аxborot tizimlari menejmenti Oliy maktabining Fargʼona shahridagi filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "464",
+      "name": "Maʼmun universiteti",
+      "api_url": "https://student.mamunedu.uz/rest/v1/",
+      "student_url": "https://student.mamunedu.uz/",
+      "employee_url": "https://hemis.mamunedu.uz/"
+    },
+    {
+      "code": "489",
+      "name": "Mehnat va ijtimoiy munosabatlar akademiyasi",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "430",
+      "name": "MEI milliy tadqiqot universiteti Federal davlat byudjeti oliy taʼlim muassasasining Toshkent filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "513",
+      "name": "Millat Umidi Universiteti",
+      "api_url": "https://student.cambridge.uz/rest/v1/",
+      "student_url": "https://student.cambridge.uz/",
+      "employee_url": "https://hemis.cambridge.uz/"
+    },
+    {
+      "code": "401",
+      "name": "Mirzo Ulug'bek nomidagi O‘zbekiston Milliy universitetining Jizzax filiali",
+      "api_url": "https://student.jbnuu.uz/rest/v1/",
+      "student_url": "https://student.jbnuu.uz/",
+      "employee_url": "https://hemis.jbnuu.uz/"
+    },
+    {
+      "code": "425",
+      "name": "MMFI milliy tadqiqot yadro universiteti federal davlat avtonom oliy taʼlim muassasasining Toshkent shahridagi filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "418",
+      "name": "M.V.Lomonosov nomidagi Moskva davlat universitetining Toshkent shahridagi filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "450",
+      "name": "Namangan davlat chet tillari instituti",
+      "api_url": "https://student.namsifl.uz/rest/v1/",
+      "student_url": "https://student.namsifl.uz/",
+      "employee_url": "https://hemis.namsifl.uz/"
+    },
+    {
+      "code": "451",
+      "name": "Namangan davlat pedagogika instituti",
+      "api_url": "https://student.namspi.uz/rest/v1/",
+      "student_url": "https://student.namspi.uz/",
+      "employee_url": "https://hemis.namspi.uz/"
+    },
+    {
+      "code": "309",
+      "name": "Namangan davlat universiteti",
+      "api_url": "https://student.namdu.uz/rest/v1/",
+      "student_url": "https://student.namdu.uz/",
+      "employee_url": "https://hemis.namdu.uz/"
+    },
+    {
+      "code": "310",
+      "name": "Namangan muhandislik-qurilish instituti",
+      "api_url": "https://student.nammqi.uz/rest/v1/",
+      "student_url": "https://student.nammqi.uz/",
+      "employee_url": "https://hemis.nammqi.uz/"
+    },
+    {
+      "code": "311",
+      "name": "Namangan muhandislik-texnologiya instituti",
+      "api_url": "https://student.nammti.uz/rest/v1/",
+      "student_url": "https://student.nammti.uz/",
+      "employee_url": "https://hemis.nammti.uz/"
+    },
+    {
+      "code": "505",
+      "name": "Namangan to'qimachilik sanoati instituti",
+      "api_url": "https://student.ntsi.uz/rest/v1/",
+      "student_url": "https://student.ntsi.uz/",
+      "employee_url": "https://hemis.ntsi.uz/"
+    },
+    {
+      "code": "487",
+      "name": "Namangan Xalqaro Universiteti",
+      "api_url": "https://student.namxu.uz/rest/v1/",
+      "student_url": "https://student.namxu.uz/",
+      "employee_url": "https://hemis.namxu.uz/"
+    },
+    {
+      "code": "319",
+      "name": "Navoiy davlat konchilik va texnologiyalar universiteti",
+      "api_url": "https://student.ndki.uz/rest/v1/",
+      "student_url": "https://student.ndki.uz/",
+      "employee_url": "https://hemis.ndki.uz/"
+    },
+    {
+      "code": "317",
+      "name": "Navoiy davlat konchilik  va texnologiyalar universiteti  huzuridagi Nukus konchilik instituti",
+      "api_url": "https://talaba.ndkinf.uz/rest/v1/",
+      "student_url": "https://talaba.ndkinf.uz/",
+      "employee_url": "https://hemis.ndkinf.uz/"
+    },
+    {
+      "code": "353",
+      "name": "Navoiy davlat pedagogika instituti",
+      "api_url": "https://student.nspi.uz/rest/v1/",
+      "student_url": "https://student.nspi.uz/",
+      "employee_url": "https://hemis.nspi.uz/"
+    },
+    {
+      "code": "462",
+      "name": "Navoiy innovatsiyalar universiteti",
+      "api_url": "https://student.niiedu.uz/rest/v1/",
+      "student_url": "https://student.niiedu.uz/",
+      "employee_url": "https://hemis.niiedu.uz/"
+    },
+    {
+      "code": "352",
+      "name": "Nukus davlat pedagogika instituti",
+      "api_url": "https://student.ndpi.uz/rest/v1/",
+      "student_url": "https://student.ndpi.uz/",
+      "employee_url": "https://hemis.ndpi.uz/"
+    },
+    {
+      "code": "481",
+      "name": "Nukus innovatsion instituti",
+      "api_url": "https://student.nukusinnovatsion.uz/rest/v1/",
+      "student_url": "https://student.nukusinnovatsion.uz/",
+      "employee_url": "https://hemis.nukusinnovatsion.uz/"
+    },
+    {
+      "code": "321",
+      "name": "Oʻzbekiston  davlat jismoniy tarbiya va sport universiteti Fargʻona filiali",
+      "api_url": "https://suzdjtsuff.e-edu.uz/rest/v1/",
+      "student_url": "https://suzdjtsuff.e-edu.uz/",
+      "employee_url": "https://uzdjtsuff.e-edu.uz/"
+    },
+    {
+      "code": "323",
+      "name": "Oʻzbekiston davlat konservatoriyasi Nukus filiali",
+      "api_url": "https://suzdknf.e-edu.uz/rest/v1/",
+      "student_url": "https://suzdknf.e-edu.uz/",
+      "employee_url": "https://uzdknf.e-edu.uz/"
+    },
+    {
+      "code": "330",
+      "name": "Oʻzbekiston davlat xoreografiya akademiyasi Urganch filiali",
+      "api_url": "https://tuzdxauf.e-edu.uz/rest/v1/",
+      "student_url": "https://tuzdxauf.e-edu.uz/",
+      "employee_url": "https://uzdxauf.e-edu.uz/"
+    },
+    {
+      "code": "512",
+      "name": "Oliy sport mahorati instituti",
+      "api_url": "https://student.osmi.uz/rest/v1/",
+      "student_url": "https://student.osmi.uz/",
+      "employee_url": "https://hemis.osmi.uz/"
+    },
+    {
+      "code": "442",
+      "name": "Oriental universiteti",
+      "api_url": "https://student.albukhari-edu.uz/rest/v1/",
+      "student_url": "https://student.albukhari-edu.uz/",
+      "employee_url": "https://hemis.albukhari-edu.uz/"
+    },
+    {
+      "code": "468",
+      "name": "Osiyo xalqaro universiteti",
+      "api_url": "https://student.oxu.uz/rest/v1/",
+      "student_url": "https://student.oxu.uz/",
+      "employee_url": "https://hemis.oxu.uz/"
+    },
+    {
+      "code": "326",
+      "name": "O‘zbekiston davlat jahon tillari universiteti",
+      "api_url": "https://student.uzswlu.uz/rest/v1/",
+      "student_url": "https://student.uzswlu.uz/",
+      "employee_url": "https://hemis.uzswlu.uz/"
+    },
+    {
+      "code": "382",
+      "name": "O‘zbekiston  davlat jismoniy tarbiya va sport universiteti",
+      "api_url": "https://student.uzdjtsu.uz/rest/v1/",
+      "student_url": "https://student.uzdjtsu.uz/",
+      "employee_url": "https://hemis.uzdjtsu.uz/"
+    },
+    {
+      "code": "399",
+      "name": "O‘zbekiston  davlat jismoniy tarbiya va sport universiteti Nukus filiali",
+      "api_url": "https://student.uzdjtsunf.uz/rest/v1/",
+      "student_url": "https://student.uzdjtsunf.uz/",
+      "employee_url": "https://hemis.uzdjtsunf.uz/"
+    },
+    {
+      "code": "378",
+      "name": "O‘zbekiston  davlat konservatoriyasi",
+      "api_url": "https://student.konservatoriya.uz/rest/v1/",
+      "student_url": "https://student.konservatoriya.uz/",
+      "employee_url": "https://hemis.konservatoriya.uz/"
+    },
+    {
+      "code": "377",
+      "name": "O‘zbekiston davlat san’at va madaniyat instituti",
+      "api_url": "https://student.dsmi.uz/rest/v1/",
+      "student_url": "https://student.dsmi.uz/",
+      "employee_url": "https://hemis.dsmi.uz/"
+    },
+    {
+      "code": "381",
+      "name": "O‘zbekiston davlat san’at va madaniyat institutining Farg‘ona mintaqaviy filiali",
+      "api_url": "https://student.dsmi-qf.uz/rest/v1/",
+      "student_url": "https://student.dsmi-qf.uz/",
+      "employee_url": "https://hemis.dsmi-qf.uz/"
+    },
+    {
+      "code": "393",
+      "name": "O‘zbekiston davlat san’at va madaniyat instituti Nukus filiali",
+      "api_url": "https://student.uzdsmi-nf.uz/rest/v1/",
+      "student_url": "https://student.uzdsmi-nf.uz/",
+      "employee_url": "https://hemis.uzdsmi-nf.uz/"
+    },
+    {
+      "code": "325",
+      "name": "O'zbekiston davlat xoreografiya akademiyasi",
+      "api_url": "https://student.uzdxa.uz/rest/v1/",
+      "student_url": "https://student.uzdxa.uz/",
+      "employee_url": "https://hemis.uzdxa.uz/"
+    },
+    {
+      "code": "320",
+      "name": "O‘zbekiston-Finlyandiya pedagogika instituti",
+      "api_url": "https://student.uzfi.uz/rest/v1/",
+      "student_url": "https://student.uzfi.uz/",
+      "employee_url": "https://hemis.uzfi.uz/"
+    },
+    {
+      "code": "395",
+      "name": "O‘zbekiston jurnalistika va ommaviy kommunikatsiyalar universiteti",
+      "api_url": "https://student.jmcu.uz/rest/v1/",
+      "student_url": "https://student.jmcu.uz/",
+      "employee_url": "https://hemis.jmcu.uz/"
+    },
+    {
+      "code": "314",
+      "name": "O‘zbekiston Milliy universiteti",
+      "api_url": "https://hstudent.nuu.uz/rest/v1/",
+      "student_url": "https://hstudent.nuu.uz/",
+      "employee_url": "https://hhemis.nuu.uz/"
+    },
+    {
+      "code": "522",
+      "name": "O‘zbekiston Respublikasi Bank-moliya akademiyasi",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "440",
+      "name": "O‘zbekiston Respublikasi Davlat soliq qo‘mitasi huzuridagi Fiskal institut",
+      "api_url": "https://student.fiin.uz/rest/v1/",
+      "student_url": "https://student.fiin.uz/",
+      "employee_url": "https://hemis.fiin.uz/"
+    },
+    {
+      "code": "306",
+      "name": "O‘zbekiston xalqaro islom akademiyasi",
+      "api_url": "https://student.iiau.uz/rest/v1/",
+      "student_url": "https://student.iiau.uz/",
+      "employee_url": "https://hemis.iiau.uz/"
+    },
+    {
+      "code": "510",
+      "name": "Oziq-ovqat texnologiyasi va muhandisligi xalqaro instituti",
+      "api_url": "https://student.iifte.uz/rest/v1/",
+      "student_url": "https://student.iifte.uz/",
+      "employee_url": "https://hemis.iifte.uz/"
+    },
+    {
+      "code": "405",
+      "name": "Oʼzbekistondagi Sharda universiteti",
+      "api_url": "https://student.shardauniversity.uz/rest/v1/",
+      "student_url": "https://student.shardauniversity.uz/",
+      "employee_url": "https://hemis.shardauniversity.uz/"
+    },
+    {
+      "code": "400",
+      "name": "Oʼzbekiston Respublikasi Huquqni muhofaza qilish akademiyasi",
+      "api_url": "https://student.sbtsul.uz/rest/v1/",
+      "student_url": "https://student.sbtsul.uz/",
+      "employee_url": "https://hemis.sbtsul.uz/"
+    },
+    {
+      "code": "506",
+      "name": "PDP University",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "476",
+      "name": "Perfect University",
+      "api_url": "https://student.perfectuniversity.uz/rest/v1/",
+      "student_url": "https://student.perfectuniversity.uz/",
+      "employee_url": "https://hemis.perfectuniversity.uz/"
+    },
+    {
+      "code": "448",
+      "name": "Pisa university in Tashkent",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "441",
+      "name": "Profi University",
+      "api_url": "https://student.profiuniversity.uz/rest/v1/",
+      "student_url": "https://student.profiuniversity.uz/",
+      "employee_url": "https://hemis.profiuniversity.uz/"
+    },
+    {
+      "code": "508",
+      "name": "Profi University Navoiy filliali",
+      "api_url": "https://studentnav.profiuniversity.uz/rest/v1/",
+      "student_url": "https://studentnav.profiuniversity.uz/",
+      "employee_url": "https://hemisnav.profiuniversity.uz/"
+    },
+    {
+      "code": "345",
+      "name": "Qarshi davlat universiteti",
+      "api_url": "https://student.qarshidu.uz/rest/v1/",
+      "student_url": "https://student.qarshidu.uz/",
+      "employee_url": "https://hemis.qarshidu.uz/"
+    },
+    {
+      "code": "483",
+      "name": "Qarshi innovatsion ta’lim universiteti",
+      "api_url": "https://student.qitu.uz/rest/v1/",
+      "student_url": "https://student.qitu.uz/",
+      "employee_url": "https://hemis.qitu.uz/"
+    },
+    {
+      "code": "375",
+      "name": "Qarshi muhandislik - iqtisodiyot instituti",
+      "api_url": "https://student.qmii.uz/rest/v1/",
+      "student_url": "https://student.qmii.uz/",
+      "employee_url": "https://hemis.qmii.uz/"
+    },
+    {
+      "code": "466",
+      "name": "Qarshi xalqaro universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "356",
+      "name": "Qo‘qon davlat pedagogika instituti",
+      "api_url": "https://talaba.kspi.uz/rest/v1/",
+      "student_url": "https://talaba.kspi.uz/",
+      "employee_url": "https://hemis.kspi.uz/"
+    },
+    {
+      "code": "411",
+      "name": "Qo‘qon universiteti",
+      "api_url": "https://student.kokanduni.uz/rest/v1/",
+      "student_url": "https://student.kokanduni.uz/",
+      "employee_url": "https://hemis.kokanduni.uz/"
+    },
+    {
+      "code": "519",
+      "name": "Qo'qon universiteti Andijon filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "386",
+      "name": "Qoraqalpog'iston qishloq xo'jaligi va agrotexnologiyalar instituti",
+      "api_url": "https://student.tdaunukus.uz/rest/v1/",
+      "student_url": "https://student.tdaunukus.uz/",
+      "employee_url": "https://hemis.tdaunukus.uz/"
+    },
+    {
+      "code": "349",
+      "name": "Qoraqalpog'iston tibbiyot instituti",
+      "api_url": "https://student.kkmi.uz/rest/v1/",
+      "student_url": "https://student.kkmi.uz/",
+      "employee_url": "https://hemis.kkmi.uz/"
+    },
+    {
+      "code": "500",
+      "name": "Raqamli iqtisodiyot va agrotexnologiyalar universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "504",
+      "name": "Renaissance University",
+      "api_url": "https://student.edurenaissance.uz/rest/v1/",
+      "student_url": "https://student.edurenaissance.uz/",
+      "employee_url": "https://hemis.edurenaissance.uz/"
+    },
+    {
+      "code": "475",
+      "name": "Renessans ta'lim universiteti",
+      "api_url": "https://student.qitu.uz/rest/v1/",
+      "student_url": "https://student.qitu.uz/",
+      "employee_url": "https://hemis.qitu.uz/"
+    },
+    {
+      "code": "372",
+      "name": "Samarkand davlat veterinariya meditsinasi, chorvachilik va biotexnologiyalar universitet",
+      "api_url": "https://student.otmsamvmi.uz/rest/v1/",
+      "student_url": "https://student.otmsamvmi.uz/",
+      "employee_url": "https://hemis.otmsamvmi.uz/"
+    },
+    {
+      "code": "406",
+      "name": "Samarqand agroinnovatsiyalar va tadqiqotlar instituti",
+      "api_url": "https://student.samaguni.uz/rest/v1/",
+      "student_url": "https://student.samaguni.uz/",
+      "employee_url": "https://hemis.samaguni.uz/"
+    },
+    {
+      "code": "313",
+      "name": "Samarqand davlat arxitektura-qurilish universiteti",
+      "api_url": "https://student.samgasi.uz/rest/v1/",
+      "student_url": "https://student.samgasi.uz/",
+      "employee_url": "https://hemis.samgasi.uz/"
+    },
+    {
+      "code": "347",
+      "name": "Samarqand davlat chet tillar instituti",
+      "api_url": "https://student.samdchti.uz/rest/v1/",
+      "student_url": "https://student.samdchti.uz/",
+      "employee_url": "https://hemis.samdchti.uz/"
+    },
+    {
+      "code": "363",
+      "name": "Samarqand davlat tibbiyot universiteti",
+      "api_url": "https://student.sammu.uz/rest/v1/",
+      "student_url": "https://student.sammu.uz/",
+      "employee_url": "https://hemis.sammu.uz/"
+    },
+    {
+      "code": "348",
+      "name": "Samarqand davlat universitetining Denov tadbirkorlik va pedagogika instituti",
+      "api_url": "https://student.dtpi.uz/rest/v1/",
+      "student_url": "https://student.dtpi.uz/",
+      "employee_url": "https://hemis.dtpi.uz/"
+    },
+    {
+      "code": "318",
+      "name": "Samarqand davlat universitetining Kattaqoʻrgʻon filiali",
+      "api_url": "https://student.samdukf.uz/rest/v1/",
+      "student_url": "https://student.samdukf.uz/",
+      "employee_url": "https://hemis.samdukf.uz/"
+    },
+    {
+      "code": "398",
+      "name": "Samarqand davlat veterinariya meditsinasi, chorvachilik va biotexnologiyalar universiteti Nukus filiali",
+      "api_url": "https://talaba.otmsamvmi.uz/rest/v1/",
+      "student_url": "https://talaba.otmsamvmi.uz/",
+      "employee_url": "https://nukus.otmsamvmi.uz/"
+    },
+    {
+      "code": "383",
+      "name": "Samarqand davlat veterinariya meditsinasi, chorvachilik va biotexnologiyalar universiteti Toshkent filiali",
+      "api_url": "https://student.samvmitf.uz/rest/v1/",
+      "student_url": "https://student.samvmitf.uz/",
+      "employee_url": "https://hemis.samvmitf.uz/"
+    },
+    {
+      "code": "385",
+      "name": "Samarqand iqtisodiyot va servis instituti",
+      "api_url": "https://student.sies.uz/rest/v1/",
+      "student_url": "https://student.sies.uz/",
+      "employee_url": "https://hemis.sies.uz/"
+    },
+    {
+      "code": "477",
+      "name": "Samarqand Xalqaro Texnologiya Universiteti",
+      "api_url": "https://student.siut.uz/rest/v1/",
+      "student_url": "https://student.siut.uz/",
+      "employee_url": "https://hemis.siut.uz/"
+    },
+    {
+      "code": "445",
+      "name": "SAMBHRAM universitet",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "518",
+      "name": "«Sankt-Peterburg davlat universiteti» Federal davlat byudjeti oliy taʼlim muassasasi Toshkent shahridagi filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "358",
+      "name": "Shahrisabz davlat pedagogika instituti",
+      "api_url": "https://student.shdpi.uz/rest/v1/",
+      "student_url": "https://student.shdpi.uz/",
+      "employee_url": "https://hemis.shdpi.uz/"
+    },
+    {
+      "code": "312",
+      "name": "Sharof Rashidov nomidagi Samarqand davlat universiteti",
+      "api_url": "https://student.samdu.uz/rest/v1/",
+      "student_url": "https://student.samdu.uz/",
+      "employee_url": "https://hemis.samdu.uz/"
+    },
+    {
+      "code": "455",
+      "name": "Sharof Rashidov nomidagi Samarqand davlat universitetining Urgut filiali",
+      "api_url": "https://student.samduuf.uz/rest/v1/",
+      "student_url": "https://student.samduuf.uz/",
+      "employee_url": "https://hemis.samduuf.uz/"
+    },
+    {
+      "code": "490",
+      "name": "STARS International University",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "437",
+      "name": "Tashkent International University of Education xalqaro universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "507",
+      "name": "TEAM University",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "374",
+      "name": "Termiz agrotexnologiyalar va innovatsion rivojlanish instituti",
+      "api_url": "https://student.tiaid.uz/rest/v1/",
+      "student_url": "https://student.tiaid.uz/",
+      "employee_url": "https://student.tiaid.uz/"
+    },
+    {
+      "code": "357",
+      "name": "Termiz davlat pedagogika instituti",
+      "api_url": "https://student.terdpi.uz/rest/v1/",
+      "student_url": "https://student.terdpi.uz/",
+      "employee_url": "https://hemis.terdpi.uz/"
+    },
+    {
+      "code": "340",
+      "name": "Termiz davlat universiteti",
+      "api_url": "https://student.tersu.uz/rest/v1/",
+      "student_url": "https://student.tersu.uz/",
+      "employee_url": "https://hemis.tersu.uz/"
+    },
+    {
+      "code": "474",
+      "name": "Termiz iqtisodiyot va servis universiteti",
+      "api_url": "https://student.tesu.uz/rest/v1/",
+      "student_url": "https://student.tesu.uz/",
+      "employee_url": "https://hemis.tesu.uz/"
+    },
+    {
+      "code": "379",
+      "name": "Termiz muhandislik-texnologiya instituti",
+      "api_url": "https://student.tdtutf.uz/rest/v1/",
+      "student_url": "https://student.tdtutf.uz/",
+      "employee_url": "https://hemis.tdtutf.uz/"
+    },
+    {
+      "code": "998",
+      "name": "TEST2OTM",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "397",
+      "name": "\"TIQXMMI\" Milliy tadqiqot universitetining Qarshi irrigatsiya va agrotexnologiyalar instituti",
+      "api_url": "https://student.tiiamekb.uz/rest/v1/",
+      "student_url": "https://student.tiiamekb.uz/",
+      "employee_url": "https://hemis.tiiamekb.uz/"
+    },
+    {
+      "code": "394",
+      "name": "\"TIQXMMI\" MTU Buxoro tabiiy resurslarni boshqarish instititi",
+      "api_url": "https://student.tiiamebb.uz/rest/v1/",
+      "student_url": "https://student.tiiamebb.uz/",
+      "employee_url": "https://hemis.tiiamebb.uz/"
+    },
+    {
+      "code": "461",
+      "name": "TMC INSTITUTE",
+      "api_url": "https://student.tmci.uz/rest/v1/",
+      "student_url": "https://student.tmci.uz/",
+      "employee_url": "https://hemis.tmci.uz/"
+    },
+    {
+      "code": "501",
+      "name": "Toshkent amaliy fanlar universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "328",
+      "name": "Toshkent arxitektura-qurilish universiteti",
+      "api_url": "https://student.tiace.uz/rest/v1/",
+      "student_url": "https://student.tiace.uz/",
+      "employee_url": "https://hemis.tiace.uz/"
+    },
+    {
+      "code": "380",
+      "name": "Toshkent axborot texnologiyalari universiteti",
+      "api_url": "https://xmn.tuit.uz/rest/v1/",
+      "student_url": "https://xmn.tuit.uz/",
+      "employee_url": "https://xn.tuit.uz/"
+    },
+    {
+      "code": "392",
+      "name": "Toshkent axborot texnologiyalari universiteti Farg‘ona filiali",
+      "api_url": "https://student.fbtuit.uz/rest/v1/",
+      "student_url": "https://student.fbtuit.uz/",
+      "employee_url": "https://hemis.fbtuit.uz/"
+    },
+    {
+      "code": "391",
+      "name": "Toshkent axborot texnologiyalari universiteti Nukus filiali",
+      "api_url": "https://student.tatunf.uz/rest/v1/",
+      "student_url": "https://student.tatunf.uz/",
+      "employee_url": "https://hemis.tatunf.uz/"
+    },
+    {
+      "code": "333",
+      "name": "Toshkent axborot texnologiyalari universiteti Nurafshon filiali",
+      "api_url": "https://snf.tuit.uz/rest/v1/",
+      "student_url": "https://snf.tuit.uz/",
+      "employee_url": "https://nf.tuit.uz/"
+    },
+    {
+      "code": "389",
+      "name": "Toshkent axborot texnologiyalari universiteti Qarshi filiali",
+      "api_url": "https://student.tuitkf.uz/rest/v1/",
+      "student_url": "https://student.tuitkf.uz/",
+      "employee_url": "https://hemis.tuitkf.uz/"
+    },
+    {
+      "code": "388",
+      "name": "Toshkent axborot texnologiyalari universiteti Samarqand filiali",
+      "api_url": "https://student.samtuit.uz/rest/v1/",
+      "student_url": "https://student.samtuit.uz/",
+      "employee_url": "https://hemis.samtuit.uz/"
+    },
+    {
+      "code": "390",
+      "name": "Toshkent axborot texnologiyalari universiteti Urganch filiali",
+      "api_url": "https://student.ubtuit.uz/rest/v1/",
+      "student_url": "https://student.ubtuit.uz/",
+      "employee_url": "https://hemis.ubtuit.uz/"
+    },
+    {
+      "code": "373",
+      "name": "Toshkent davlat agrar universiteti",
+      "api_url": "https://student.tdau.uz/rest/v1/",
+      "student_url": "https://student.tdau.uz/",
+      "employee_url": "https://hemis.tdau.uz/"
+    },
+    {
+      "code": "324",
+      "name": "Toshkent davlat iqtisodiyot universiteti",
+      "api_url": "https://talaba.tsue.uz/rest/v1/",
+      "student_url": "https://talaba.tsue.uz/",
+      "employee_url": "https://hemis.tsue.uz/"
+    },
+    {
+      "code": "360",
+      "name": "Toshkent davlat iqtisodiyot universiteti Samarqand filiali",
+      "api_url": "https://student.sbtsue.uz/rest/v1/",
+      "student_url": "https://student.sbtsue.uz/",
+      "employee_url": "https://hemis.sbtsue.uz/"
+    },
+    {
+      "code": "302",
+      "name": "Toshkent davlat o‘zbek tili va adabiyoti universiteti",
+      "api_url": "https://student.navoiy-uni.uz/rest/v1/",
+      "student_url": "https://student.navoiy-uni.uz/",
+      "employee_url": "https://hemis.navoiy-uni.uz/"
+    },
+    {
+      "code": "355",
+      "name": "Toshkent davlat pedagogika universiteti",
+      "api_url": "https://student.tdpu.uz/rest/v1/",
+      "student_url": "https://student.tdpu.uz/",
+      "employee_url": "https://hemis.tdpu.uz/"
+    },
+    {
+      "code": "327",
+      "name": "Toshkent davlat sharqshunoslik universiteti",
+      "api_url": "https://student.tsuos.uz:20024/rest/v1/",
+      "student_url": "https://student.tsuos.uz:20024/",
+      "employee_url": "https://hemis.tsuos.uz:20024/"
+    },
+    {
+      "code": "366",
+      "name": "Toshkent davlat stomatologiya instituti",
+      "api_url": "https://student.tsdi.uz/rest/v1/",
+      "student_url": "https://student.tsdi.uz/",
+      "employee_url": "https://hemis.tsdi.uz/"
+    },
+    {
+      "code": "315",
+      "name": "Toshkent davlat texnika universiteti",
+      "api_url": "https://student.tdtu.uz/rest/v1/",
+      "student_url": "https://student.tdtu.uz/",
+      "employee_url": "https://hemis.tdtu.uz/"
+    },
+    {
+      "code": "365",
+      "name": "Toshkent davlat texnika universiteti Olmaliq filiali",
+      "api_url": "https://student.tdtuof.uz/rest/v1/",
+      "student_url": "https://student.tdtuof.uz/",
+      "employee_url": "https://hemis.tdtuof.uz/"
+    },
+    {
+      "code": "370",
+      "name": "Toshkent davlat texnika universiteti Qo‘qon filiali",
+      "api_url": "https://student.tdtukokand.uz/rest/v1/",
+      "student_url": "https://student.tdtukokand.uz/",
+      "employee_url": "https://hemis.tdtukokand.uz/"
+    },
+    {
+      "code": "334",
+      "name": "Toshkent davlat transport universiteti",
+      "api_url": "https://student.tstu.uz/rest/v1/",
+      "student_url": "https://student.tstu.uz/",
+      "employee_url": "https://hemis.tstu.uz/"
+    },
+    {
+      "code": "384",
+      "name": "Toshkent davlat yuridik universiteti",
+      "api_url": "https://hemis.tsul.uz/rest/v1/",
+      "student_url": "https://hemis.tsul.uz/",
+      "employee_url": "https://hemis.tsul.uz/"
+    },
+    {
+      "code": "369",
+      "name": "Toshkent Farmatsevtika Instituti",
+      "api_url": "https://student.pharmi.uz/rest/v1/",
+      "student_url": "https://student.pharmi.uz/",
+      "employee_url": "https://hemis.pharmi.uz/"
+    },
+    {
+      "code": "407",
+      "name": "Toshkent gumanitar universiteti",
+      "api_url": "https://student.tgfu.uz/rest/v1/",
+      "student_url": "https://student.tgfu.uz/",
+      "employee_url": "https://hemis.tgfu.uz/"
+    },
+    {
+      "code": "435",
+      "name": "Toshkent ijtimoiy innovatsiya universiteti",
+      "api_url": "https://student.iiiu.uz/rest/v1/",
+      "student_url": "https://student.iiiu.uz/",
+      "employee_url": "https://hemis.iiiu.uz/"
+    },
+    {
+      "code": "459",
+      "name": "Toshkent iqtisodiyot va pedagogika instituti",
+      "api_url": "https://student.tipi.uz/rest/v1/",
+      "student_url": "https://student.tipi.uz/",
+      "employee_url": "https://hemis.tipi.uz/"
+    },
+    {
+      "code": "433",
+      "name": "Toshkent iqtisodiyot va texnologiyalari universiteti",
+      "api_url": "https://student.uztitu.uz/rest/v1/",
+      "student_url": "https://student.uztitu.uz/",
+      "employee_url": "https://hemis.uztitu.uz/"
+    },
+    {
+      "code": "376",
+      "name": "\"Toshkent irrigatsiya va qishloq xo‘jaligini mexanizatsiyalash muhandislari instituti\" Milliy tadqiqot universiteti",
+      "api_url": "https://student.tiiame.uz/rest/v1/",
+      "student_url": "https://student.tiiame.uz/",
+      "employee_url": "https://hemis.tiiame.uz/"
+    },
+    {
+      "code": "337",
+      "name": "Toshkent kimyo-texnologiya instituti",
+      "api_url": "https://student.tcti.uz/rest/v1/",
+      "student_url": "https://student.tcti.uz/",
+      "employee_url": "https://hemis.tcti.uz/"
+    },
+    {
+      "code": "335",
+      "name": "Toshkent kimyo-texnologiya instituti Shahrisabz filiali",
+      "api_url": "https://student.stict.uz/rest/v1/",
+      "student_url": "https://student.stict.uz/",
+      "employee_url": "https://hemis.stict.uz/"
+    },
+    {
+      "code": "402",
+      "name": "Toshkent kimyo-texnologiya instituti Yangiyer filiali",
+      "api_url": "https://stktiyf.e-edu.uz/rest/v1/",
+      "student_url": "https://stktiyf.e-edu.uz/",
+      "employee_url": "https://tktiyf.e-edu.uz/"
+    },
+    {
+      "code": "415",
+      "name": "Toshkent kimyo xalqaro universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "412",
+      "name": "Toshkent kimyo xalqaro universiteti Namangan filliali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "428",
+      "name": "Toshkent kimyo xalqaro universiteti Samarqand filliali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "449",
+      "name": "Toshkent menedjment va iqtisodiyot instituti",
+      "api_url": "https://talaba.timeedu.uz/rest/v1/",
+      "student_url": "https://talaba.timeedu.uz/",
+      "employee_url": "https://hemis.timeedu.uz/"
+    },
+    {
+      "code": "336",
+      "name": "Toshkent moliya instituti",
+      "api_url": "https://student.tfi.uz/rest/v1/",
+      "student_url": "https://student.tfi.uz/",
+      "employee_url": "https://hemis.tfi.uz/"
+    },
+    {
+      "code": "367",
+      "name": "Toshkent pediatriya tibbiyot instituti",
+      "api_url": "https://student.tashpmi.uz/rest/v1/",
+      "student_url": "https://student.tashpmi.uz/",
+      "employee_url": "https://hemis.tashpmi.uz/"
+    },
+    {
+      "code": "426",
+      "name": "Toshkent shahridagi Adju universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "332",
+      "name": "Toshkent shahridagi “A.I.Gersen nomidagi Rossiya Davlat pedagogika universiteti” Federal davlat budjeti oliy ta’lim muassasasi filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "427",
+      "name": "Toshkent shahridagi Amiti universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "432",
+      "name": "Toshkent shahridagi Belarus-Oʼzbekiston qoʼshma tarmoqlararo amaliy texnik kvalifikatsiyalar instituti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "423",
+      "name": "Toshkent shahridagi Inha Universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "424",
+      "name": "Toshkent shahridagi Puchon universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "422",
+      "name": "Toshkent shahridagi Singapur Menejmentni rivojlantirish instituti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "420",
+      "name": "Toshkent shahridagi Turin politexnika universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "496",
+      "name": "Toshkent shahridagi Turkiyaning iqtisodiyot va texnologiyalar universiteti filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "429",
+      "name": "Toshkent shahridagi Vebster universitetining taʼlim dasturlarini amalga oshirish markazi",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "465",
+      "name": "Toshkent shahrida S.A Gerasimov nomidagi Butunrossiya davlat kinematografiya universitetining birinchi xorijiy filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "502",
+      "name": "Toshkent Texnologiyalar universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "364",
+      "name": "Toshkent tibbiyot akademiyasi",
+      "api_url": "https://student.tma.uz/rest/v1/",
+      "student_url": "https://student.tma.uz/",
+      "employee_url": "https://hemis.tma.uz/"
+    },
+    {
+      "code": "521",
+      "name": "Toshkent tibbiyot akademiyasi Chirchiq filiali",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "368",
+      "name": "Toshkent tibbiyot akademiyasi Termiz filiali",
+      "api_url": "https://student.ttatf.uz/rest/v1/",
+      "student_url": "https://student.ttatf.uz/",
+      "employee_url": "https://hemis.ttatf.uz/"
+    },
+    {
+      "code": "338",
+      "name": "Toshkent tibbiyot akademiyasi Urganch filiali",
+      "api_url": "https://student.urgfiltma.uz/rest/v1/",
+      "student_url": "https://student.urgfiltma.uz/",
+      "employee_url": "https://hemis.urgfiltma.uz/"
+    },
+    {
+      "code": "331",
+      "name": "Toshkent toʻqimachilik va yengil sanoat instituti",
+      "api_url": "https://student.ttyesi.uz/rest/v1/",
+      "student_url": "https://student.ttyesi.uz/",
+      "employee_url": "https://hemis.ttyesi.uz/"
+    },
+    {
+      "code": "516",
+      "name": "Toshkent xalqaro moliyaviy boshqaruv va texnalogiyalar universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "517",
+      "name": "Toshkent xalqaro universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "421",
+      "name": "Toshkent Xalqaro Vestminster Universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "456",
+      "name": "Turan International University",
+      "api_url": "https://student.tiu-edu.uz/rest/v1/",
+      "student_url": "https://student.tiu-edu.uz/",
+      "employee_url": "https://hemis.tiu-edu.uz/"
+    },
+    {
+      "code": "484",
+      "name": "Turkiston yangi innovatsiyalar universiteti",
+      "api_url": "https://student.tyiu.uz/rest/v1/",
+      "student_url": "https://student.tyiu.uz/",
+      "employee_url": "https://hemis.tyiu.uz/"
+    },
+    {
+      "code": "488",
+      "name": "Turon universiteti",
+      "api_url": "https://student.turonuniversity.uz/rest/v1/",
+      "student_url": "https://student.turonuniversity.uz/",
+      "employee_url": "https://hemis.turonuniversity.uz/"
+    },
+    {
+      "code": "458",
+      "name": "Turon Zarmed Universiteti",
+      "api_url": "https://student.buxtzu.uz/rest/v1/",
+      "student_url": "https://student.buxtzu.uz/",
+      "employee_url": "https://hemis.buxtzu.uz/"
+    },
+    {
+      "code": "511",
+      "name": "University of Business and Science",
+      "api_url": "https://student.ubsu.uz/rest/v1/",
+      "student_url": "https://student.ubsu.uz/",
+      "employee_url": "https://hemis.ubsu.uz/"
+    },
+    {
+      "code": "463",
+      "name": "University of management and future technologies",
+      "api_url": "https://student.umft.uz/rest/v1/",
+      "student_url": "https://student.umft.uz/",
+      "employee_url": "https://hemis.umft.uz/"
+    },
+    {
+      "code": "472",
+      "name": "University of science and technologies",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "452",
+      "name": "Urganch davlat pedagogika instituti",
+      "api_url": "https://student.urspi.uz/rest/v1/",
+      "student_url": "https://student.urspi.uz/",
+      "employee_url": "https://hemis.urspi.uz/"
+    },
+    {
+      "code": "341",
+      "name": "Urganch davlat universiteti",
+      "api_url": "https://student.urdu.uz/rest/v1/",
+      "student_url": "https://student.urdu.uz/",
+      "employee_url": "https://hemis.urdu.uz/"
+    },
+    {
+      "code": "413",
+      "name": "Urganch Innovatsion Universiteti",
+      "api_url": "https://student.uriu.uz/rest/v1/",
+      "student_url": "https://student.uriu.uz/",
+      "employee_url": "https://hemis.uriu.uz/"
+    },
+    {
+      "code": "486",
+      "name": "Urganch RANCH texnologiya universiteti",
+      "api_url": "https://student.utu-ranch.uz/rest/v1/",
+      "student_url": "https://student.utu-ranch.uz/",
+      "employee_url": "https://hemis.utu-ranch.uz/"
+    },
+    {
+      "code": "503",
+      "name": "Urganch shahridagi xalqaro binary universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "479",
+      "name": "Xalqaro innovatsion universitet",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "493",
+      "name": "Xalqaro Nordik universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "497",
+      "name": "Xalqaro qishloq xo'jaligi universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "470",
+      "name": "Yangi Asr Universiteti",
+      "api_url": null,
+      "student_url": null,
+      "employee_url": null
+    },
+    {
+      "code": "514",
+      "name": "Yangi O'zbekiston universiteti",
+      "api_url": "https://student.jtsiti.uz/rest/v1/",
+      "student_url": "https://student.jtsiti.uz/",
+      "employee_url": "https://hemis.jtsiti.uz/"
+    },
+    {
+      "code": "414",
+      "name": "Yunus Rajabiy nomidagi O‘zbek milliy musiqa sanʼati instituti",
+      "api_url": "https://student.uzmmsi.uz/rest/v1/",
+      "student_url": "https://student.uzmmsi.uz/",
+      "employee_url": "https://hemis.uzmmsi.uz/"
+    }
+  ],
+  "code": 200
+}

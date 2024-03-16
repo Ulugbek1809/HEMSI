@@ -1,0 +1,231 @@
+inherited mainform_NmXhdpiPh: Tmainform_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited maintab: TTabControl
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    Sizes = (
+      400s
+      615s
+      400s
+      615s
+      400s
+      615s
+      400s
+      615s
+      400s
+      615s)
+    inherited universitetlar: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Label1: TLabel
+        Size.Width = 400.000000000000000000
+      end
+      inherited universitetbox: TListBox
+        Size.Width = 400.000000000000000000
+        Size.Height = 558.000000000000000000
+        Viewport.Width = 196.000000000000000000
+        Viewport.Height = 196.000000000000000000
+        inherited SearchBox1: TSearchBox
+          Size.Width = 400.000000000000000000
+        end
+      end
+    end
+    inherited login: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Layout1: TLayout
+        Size.Width = 360.000000000000000000
+        Size.Height = 365.000000000000000000
+        inherited Image2: TImage
+          MultiResBitmap.Height = 96
+          MultiResBitmap.Width = 96
+          Size.Width = 360.000000000000000000
+        end
+        inherited Edit1: TEdit
+          Size.Width = 360.000000000000000000
+        end
+        inherited Edit2: TEdit
+          Size.Width = 360.000000000000000000
+          inherited PasswordEditButton1: TPasswordEditButton
+            Size.PlatformDefault = False
+          end
+        end
+        inherited GridPanelLayout3: TGridPanelLayout
+          Margins.Top = 20.000000000000000000
+          Size.Width = 360.000000000000000000
+          Size.Height = 48.000000000000000000
+          inherited Button3: TButton
+            Margins.Top = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 170.000000000000000000
+            Size.Height = 38.000000000000000000
+          end
+          inherited Button4: TButton
+            Margins.Top = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 170.000000000000000000
+            Size.Height = 38.000000000000000000
+          end
+        end
+        inherited Label4: TLabel
+          Size.Width = 360.000000000000000000
+        end
+        inherited Label5: TLabel
+          Size.Width = 360.000000000000000000
+        end
+        inherited Label6: TLabel
+          Size.Width = 360.000000000000000000
+        end
+        inherited Label7: TLabel
+          Size.Width = 360.000000000000000000
+        end
+      end
+    end
+    inherited error: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited GridPanelLayout2: TGridPanelLayout
+        inherited Image1: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap.LoadSize = 1
+        end
+      end
+    end
+    inherited Loading: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+    end
+    inherited mainmenu: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited main: TTabControl
+        Size.Width = 400.000000000000000000
+        Size.Height = 567.000000000000000000
+        Sizes = (
+          400s
+          567s
+          400s
+          567s)
+        inherited dars_jadvali: TTabItem
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+          inherited dars_jadvali_boshqaruv: TTabControl
+            Size.Width = 400.000000000000000000
+            Size.Height = 519.000000000000000000
+            Sizes = (
+              400s
+              519s
+              400s
+              519s
+              400s
+              519s)
+            inherited dars: TTabItem
+              ExplicitSize.cx = 43.000000000000000000
+              ExplicitSize.cy = 24.000000000000000000
+              inherited ListBox1: TListBox
+                Size.Width = 400.000000000000000000
+                Size.Height = 519.000000000000000000
+                Viewport.Width = 300.000000000000000000
+                Viewport.Height = 287.000000000000000000
+              end
+            end
+            inherited dam: TTabItem
+              ExplicitSize.cx = 44.000000000000000000
+              ExplicitSize.cy = 24.000000000000000000
+              inherited GridPanelLayout5: TGridPanelLayout
+                inherited Image3: TImage
+                  MultiResBitmap.Height = 64
+                  MultiResBitmap.Width = 64
+                end
+              end
+            end
+            inherited zagruska: TTabItem
+              ExplicitSize.cx = 64.000000000000000000
+              ExplicitSize.cy = 49.000000000000000000
+            end
+          end
+          inherited ToolBar2: TToolBar
+            Size.Width = 400.000000000000000000
+            inherited GridPanelLayout4: TGridPanelLayout
+              inherited Button6: TButton
+                Size.Width = 62.312767028808590000
+              end
+              inherited DateEdit1: TDateEdit
+                Size.Height = 48.000000000000000000
+              end
+              inherited Button7: TButton
+                Size.Width = 59.520050048828130000
+              end
+            end
+          end
+        end
+        inherited Boshqa: TTabItem
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+        end
+      end
+      inherited ToolBar1: TToolBar
+        Size.Width = 400.000000000000000000
+        inherited sarlavha: TLabel
+          Size.Width = 400.000000000000000000
+        end
+      end
+    end
+  end
+  inherited MultiView1: TMultiView
+    Size.Height = 615.000000000000000000
+    inherited GridPanelLayout6: TGridPanelLayout
+      inherited Layout2: TLayout
+        inherited GridPanelLayout8: TGridPanelLayout
+          inherited kurs: TLabel
+            TextSettings.Font.StyleExt = {00040000000200000004000000}
+          end
+          inherited guruh: TLabel
+            TextSettings.Font.StyleExt = {00040000000200000004000000}
+          end
+        end
+      end
+    end
+    inherited SMESTRTAB: TTabControl
+      Size.Height = 510.000000000000000000
+      Sizes = (
+        297s
+        510s
+        297s
+        510s)
+      inherited menu: TTabItem
+        ExplicitSize.cx = 51.000000000000000000
+        ExplicitSize.cy = 24.000000000000000000
+        inherited ListBox2: TListBox
+          Size.Height = 493.000000000000000000
+          Viewport.Width = 297.000000000000000000
+          Viewport.Height = 493.000000000000000000
+          inherited ListBoxGroupHeader2: TListBoxGroupHeader [5]
+            Position.Y = 200.000000000000000000
+          end
+          inherited Chiqish: TListBoxItem [6]
+            Position.Y = 240.000000000000000000
+          end
+          inherited ListBoxItem5: TListBoxItem [7]
+            Position.Y = 280.000000000000000000
+          end
+        end
+        inherited Label3: TLabel
+          Position.Y = 493.000000000000000000
+        end
+      end
+      inherited smestrtabitem: TTabItem
+        ExplicitSize.cx = 96.000000000000000000
+        ExplicitSize.cy = 24.000000000000000000
+        inherited smestrlar_royhati: TListBox
+          Size.Height = 510.000000000000000000
+          Viewport.Width = 261.000000000000000000
+          Viewport.Height = 371.000000000000000000
+        end
+      end
+    end
+  end
+end

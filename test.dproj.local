@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.353,=D:\Software\Dasturlash\Project\Talaba 29.2.2024\frame\dars_frame.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.424,D:\Software\Dasturlash\Project\Talaba 29.2.2024\frame\dars_frame.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.445,=D:\Software\Dasturlash\Project\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.886,D:\Software\Dasturlash\Project\Talaba 29.2.2024\test.dproj=D:\Software\Dasturlash\Project\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.166,D:\Software\Dasturlash\Project\Talaba 29.2.2024\test1.dfm=D:\Software\Dasturlash\Project\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.166,D:\Software\Dasturlash\Project\Talaba 29.2.2024\test1.pas=D:\Software\Dasturlash\Project\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

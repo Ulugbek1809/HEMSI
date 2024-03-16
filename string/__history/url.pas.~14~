@@ -1,0 +1,14 @@
+﻿unit url;
+
+interface
+
+const
+  universitetlar = 'https://student.buxdu.uz/rest/v1/public/university-list';
+  auth = 'auth/login'; // autoinfilicator token
+  me = 'account/me'; // Talaba malumotlari
+  scheduel = 'education/schedule'; // Dars jadvali
+  smestr = 'education/semesters';  //smestrlar
+
+implementation
+
+end.

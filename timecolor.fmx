@@ -1,0 +1,105 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 245
+  ClientWidth = 503
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Align = MostTop
+    Size.Width = 503.000000000000000000
+    Size.Height = 129.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    inline Frame21: TFrame2
+      Align = Contents
+      Size.Width = 503.000000000000000000
+      Size.Height = 129.000000000000000000
+      Size.PlatformDefault = False
+      inherited Rectangle1: TRectangle
+        Size.Width = 493.000000000000000000
+        Size.Height = 119.000000000000000000
+        inherited Rectangle2: TRectangle
+          Size.Height = 119.000000000000000000
+          inherited GridPanelLayout1: TGridPanelLayout
+            Size.Height = 119.000000000000000000
+            ControlCollection = <
+              item
+                Column = 0
+                Control = Frame21.Label2
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = Frame21.Image1
+                Row = 1
+              end
+              item
+                Column = 0
+                Control = Frame21.Label3
+                Row = 2
+              end>
+            inherited Label2: TLabel
+              Size.Height = 24.431858062744140000
+              Text = '20:17'
+            end
+            inherited Image1: TImage
+              MultiResBitmap.Height = 96
+              MultiResBitmap.Width = 96
+              Size.Height = 46.768138885498050000
+            end
+            inherited Label3: TLabel
+              Size.Height = 23.800003051757810000
+            end
+          end
+        end
+        inherited Label1: TLabel
+          Size.Width = 408.000000000000000000
+        end
+        inherited GridPanelLayout2: TGridPanelLayout
+          Position.Y = 91.000000000000000000
+          Size.Width = 408.000000000000000000
+          ControlCollection = <
+            item
+              Column = 0
+              Control = Frame21.Rectangle3
+              Row = 0
+            end
+            item
+              Column = 1
+              Control = Frame21.Label4
+              Row = 0
+            end>
+          inherited Rectangle3: TRectangle
+            Size.Width = 204.000000000000000000
+            inherited Label6: TLabel
+              Size.Width = 200.000000000000000000
+            end
+          end
+          inherited Label4: TLabel
+            Size.Width = 201.000000000000000000
+          end
+        end
+        inherited Label5: TLabel
+          Position.Y = 64.000000000000000000
+          Size.Width = 408.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+  end
+  object DateEdit1: TDateEdit
+    Date = 45359.000000000000000000
+    TodayDefault = True
+    OnChange = DateEdit1Change
+    Position.X = 80.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+  end
+end

@@ -1,0 +1,30 @@
+object Frame2: TFrame2
+  Align = Contents
+  Size.Width = 309.000000000000000000
+  Size.Height = 148.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xA0336EA5
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Size.Width = 299.000000000000000000
+    Size.Height = 138.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFF336EA5
+    XRadius = 20.000000000000000000
+    YRadius = 20.000000000000000000
+    object Rectangle2: TRectangle
+      Align = MostLeft
+      Fill.Color = xFFD78A2B
+      Size.Width = 89.000000000000000000
+      Size.Height = 138.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFD78A2B
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+    end
+  end
+end

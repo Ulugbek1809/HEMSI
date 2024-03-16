@@ -1,0 +1,10 @@
+unit ucolor;
+
+interface
+
+const
+  sariq = '#FFD78A2B';
+
+implementation
+
+end.

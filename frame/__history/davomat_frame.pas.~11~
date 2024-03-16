@@ -1,0 +1,34 @@
+unit davomat_frame;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes,
+  System.Variants,
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Layouts, FMX.Controls.Presentation;
+
+type
+  TFrame2 = class(TFrame)
+    Rectangle1: TRectangle;
+    Rectangle2: TRectangle;
+    GridPanelLayout1: TGridPanelLayout;
+    Label1: TLabel;
+    Label2: TLabel;
+    Image1: TImage;
+    Label3: TLabel;
+    GridPanelLayout2: TGridPanelLayout;
+    Rectangle3: TRectangle;
+    GridPanelLayout3: TGridPanelLayout;
+    Label5: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.

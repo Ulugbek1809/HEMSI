@@ -1,0 +1,4 @@
+un RCDATA "universitet.json"
+dat RCDATA "db.sqlite3"
+ok RCDATA "icon\\Ok_50px.png"
+test RCDATA "icon\\Test Passed_64px.png"

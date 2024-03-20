@@ -5,7 +5,7 @@ object Frame3: TFrame3
   Size.PlatformDefault = False
   object Rectangle1: TRectangle
     Align = Client
-    Fill.Color = xE6336EA5
+    Fill.Color = xC8336EA5
     Margins.Left = 5.000000000000000000
     Margins.Top = 5.000000000000000000
     Margins.Right = 5.000000000000000000
@@ -48,6 +48,7 @@ object Frame3: TFrame3
         item
           Value = 100.000000000000000000
         end>
+      OnClick = Rectangle1Click
       object Label2: TLabel
         Align = Client
         StyledSettings = [Family, Style]
@@ -93,6 +94,7 @@ object Frame3: TFrame3
         Size.Width = 22.199996948242190000
         Size.Height = 25.000000000000000000
         Size.PlatformDefault = False
+        OnClick = Rectangle1Click
       end
     end
     object Label3: TLabel
@@ -137,7 +139,7 @@ object Frame3: TFrame3
           Size.Width = 110.000000000000000000
           Size.Height = 109.000000000000000000
           Size.PlatformDefault = False
-          Stroke.Color = claGreen
+          Stroke.Color = claGreenyellow
           Stroke.Thickness = 6.000000000000000000
           Stroke.Dash = Custom
           Stroke.CustomDash = {0000000000000000}
@@ -152,7 +154,7 @@ object Frame3: TFrame3
             Size.PlatformDefault = False
             TextSettings.Font.Size = 23.000000000000000000
             TextSettings.Font.StyleExt = {00070000000000000004000000}
-            TextSettings.FontColor = claGreen
+            TextSettings.FontColor = claGreenyellow
             TextSettings.HorzAlign = Center
             Text = '0/100'
             TabOrder = 0

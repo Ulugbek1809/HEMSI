@@ -18,7 +18,8 @@ uses
   resurces in 'frame\resurces.pas' {Frame4: TFrame},
   file_downoland_click in 'frame\file_downoland_click.pas' {Frame5: TFrame},
   davomad_frame in 'frame\davomad_frame.pas' {Frame6: TFrame},
-  davomad in 'davomad.pas' {Frame7: TFrame};
+  davomad in 'davomad.pas' {Frame7: TFrame},
+  profil_set in 'profil_set.pas' {Frame8: TFrame};
 
 {$R *.res}
 

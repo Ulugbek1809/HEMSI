@@ -5,7 +5,7 @@ object Frame2: TFrame2
   Size.PlatformDefault = False
   object Rectangle1: TRectangle
     Align = Client
-    Fill.Color = xA0336EA5
+    Fill.Color = xC8336EA5
     Margins.Left = 5.000000000000000000
     Margins.Top = 5.000000000000000000
     Margins.Right = 5.000000000000000000
@@ -14,6 +14,8 @@ object Frame2: TFrame2
     Size.Height = 138.000000000000000000
     Size.PlatformDefault = False
     Stroke.Color = xFF336EA5
+    Stroke.Thickness = 0.000000000000000000
+    Visible = False
     XRadius = 20.000000000000000000
     YRadius = 20.000000000000000000
     object Rectangle2: TRectangle

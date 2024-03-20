@@ -37,7 +37,7 @@ implementation
 
 {$R *.fmx}
 
-uses interbase, json, fanlar_bolim, main;
+uses interbase, json, fanlar_bolim, main, data, url;
 
 { TFrame3 }
 
@@ -45,11 +45,13 @@ procedure TFrame3.Rectangle1Click(Sender: TObject);
 var
   k: Tujsonvalue;
   udata: Tdatabase;
+  tk: string;
 begin
   if fanlar_haqida.TabControl1.ActiveTab = fanlar_haqida.fanlar then
   begin
     fanlar_haqida.ToolBar1.Visible := True;
     udata.create;
+    tk := mainform.token;
     mainform.MultiView1.Enabled := false;
     mainform.ToolBar1.Visible := false;
     k := udata.readjson('fan');

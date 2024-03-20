@@ -1,0 +1,203 @@
+object Frame7: TFrame7
+  Align = Client
+  Size.Width = 280.000000000000000000
+  Size.Height = 457.000000000000000000
+  Size.PlatformDefault = False
+  Visible = False
+  object Button1: TButton
+    Align = Top
+    StyledSettings = [Family, Size, Style]
+    Size.Width = 280.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'oxirgi yangilanish'
+    TextSettings.FontColor = claRed
+    OnClick = Button1Click
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 280.000000000000000000
+    Size.Height = 424.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 3
+    TabPosition = None
+    Sizes = (
+      280s
+      424s
+      280s
+      424s
+      280s
+      424s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ListBox1: TListBox
+        Align = Client
+        Size.Width = 280.000000000000000000
+        Size.Height = 424.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ShowSizeGrip = True
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 276.000000000000000000
+        Viewport.Height = 420.000000000000000000
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object AniIndicator1: TAniIndicator
+        Align = Center
+        Size.Width = 114.000000000000000000
+        Size.Height = 103.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem3'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object GridPanelLayout1: TGridPanelLayout
+        Align = Center
+        Size.Width = 213.000000000000000000
+        Size.Height = 187.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Image1
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Label1
+            Row = 1
+          end>
+        RowCollection = <
+          item
+            Value = 75.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end>
+        object Image1: TImage
+          MultiResBitmap.Height = 50
+          MultiResBitmap.Width = 50
+          MultiResBitmap = <
+            item
+              Width = 50
+              Height = 50
+              PNG = {
+                89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+                B10000000473424954080808087C08648800000454494441546881ED9A4B8C15
+                451486FF42E5A18930C2687CB050071F61D408893B46162A4462343E188C261A
+                1FA0446527C6040D262E34B8341A654B144531C60D46838218D15918C451762A
+                44E3380CC3800146E073D1A79DA2BDB76F55775D86C59C4DE776CEF9FFFF74D7
+                AD3A75AAA5099BB0B6984B05044C97B440528FA46E495749BAA0E03624698FA4
+                DD92B649DAEE9C1B49A5A1B2019380BB808F8063C4DB51E043E04E60521D2D95
+                DE08E024F54A7A41D2B576FBA4A43E654FBA4F52BFA47D85D0D9E67F93B2B737
+                5F529E40BFA4B5CEB9F7AA688A36A00BF8CC7BAA7B8167814B2B605D06AC06F6
+                79785B802BDAA1DD275E068C18E17EE029604A02DCA9C02AE080610F03F7A5D0
+                5C2472C0CBDE53DB0874B681E7226093C7B3D68671127007BC65C0A3C08A24C0
+                E59C2B8D0BE08D24C900EB0CF030B02881CE50DEC5C609F04A5DB0C7BD697261
+                1A8951FC0B8D1BE091AA2073804306F264628D313A9E360D23C095B1C10EF8DC
+                00DE6993C6183DF904B02536B0D702FF048A65C66937A01318344D77870639E0
+                875AE332D28069C0D7C097253E2B4CD3F741B318B0C4027E03CE49AAB839E76B
+                C6B9ABC467326315C0E210D07C3CAE4EAAB639DF22E02459D179430BDFE74DDB
+                C656A0E7DB74771CB824A9E2C67C33C86A35803501FEB38113C011E0BC32C7DB
+                0D744752C5CDF9D61BDF4EE0ECC0989D1673CAE25CDC03F4D8756B0AA12D042D
+                91F4A8A423921E72CE1D0F0CCDB5F5F8378B8974DBB5AFB2C200B329FD6DFBB9
+                C639F77344F87776ED6EEA01ECB1D736B7A2C620033618CF1744EE0C81EB2DB6
+                BFCC69BF39052D82B6703E1029E40EE3F81BB83A26D6E23B2DFEAF32A77CDF3D
+                391074D8FC5F0D59A48099C01F16B32A42BF8F31C5E28F96398D4626D2EB25BF
+                1E38AB85FFBBE6BB35764879184189E4436B6604F0CDC0418BFB0438B789DF83
+                E6334485FDBD87930FAD8132A74A7F76603E3060B1DF141F04D942960FC387AB
+                A5F01F56D09FFD6373BAA702C135C0AF16BF1BAB0CC88AD04FEDFE073572C879
+                961AD666FF7E719CE659DE184B606BC102659DC4B992BE02BA243D26E9564903
+                929E88C56D60F3EC5AFA466A9728C0C5C02EC3F9C51B5251D374097E5EA2DC52
+                E694A468043A801D8C59ED2165B879D1781898D6CA3949194F364D6E22AB6E67
+                D4C1F230F3327E438873BEB1DA4BCD2E22D966685E6BCF20ACA9C0EFA6AD755B
+                8A53B7BA2B53884861642D5508DDEA5A50DE7C180466B55963889E0BC9165208
+                6D3E58E099D60E7ADFB4C4B5832C780E639DF7F16CD03D631A86896DD07920F9
+                2A3A4A48E722B191AD6BFF9886E86AA308F692011D026E4BA43184D76F62BF98
+                02D0016F7A6F6679029DAD38FD6385D753028FDB414F6A8E9CC83F7A1BA2BD47
+                6FF7A6D05C46DAE54DCD50FF30F439FE7F187A793BB43712E080FB819F3C0127
+                C82AD375640BEA75408717D341B6295A46D6EBFDD66272FB11587A5A12689050
+                DD0F068E019B19AF0F069A24D5E8138E5992A69BCB4149831AFB8463BBA46D67
+                C4271C133661CDED5F86AC6598AABC35740000000049454E44AE426082}
+              FileName = 'D:\Software\Dasturlash\Project\Talaba 29.2.2024\icon\Ok_50px.png'
+            end>
+          Align = Client
+          Size.Width = 213.000000000000000000
+          Size.Height = 140.250000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label1: TLabel
+          Align = Client
+          Size.Width = 213.000000000000000000
+          Size.Height = 46.750000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = 'Siz hech qanday dars qoldirmagansiz !'
+          TabOrder = 1
+        end
+      end
+    end
+  end
+  object NetHTTPClient1: TNetHTTPClient
+    Asynchronous = True
+    UserAgent = 'Embarcadero URI Client/1.0'
+    OnRequestCompleted = NetHTTPClient1RequestCompleted
+    OnRequestError = NetHTTPClient1RequestError
+    OnRequestException = NetHTTPClient1RequestException
+    Left = 184
+    Top = 121
+  end
+  object NetHTTPClient2: TNetHTTPClient
+    UserAgent = 'Embarcadero URI Client/1.0'
+    OnRequestCompleted = NetHTTPClient2RequestCompleted
+    OnRequestError = NetHTTPClient2RequestError
+    OnRequestException = NetHTTPClient2RequestException
+    Left = 96
+    Top = 177
+  end
+end

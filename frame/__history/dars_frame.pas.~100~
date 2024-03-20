@@ -87,12 +87,14 @@ begin
   begin
     Rectangle2.Fill.Color := TAlphaColor($FFD78A2B);
     Rectangle3.Fill.Color := TAlphaColor($FFD78A2B);
+    Rectangle1.Visible := true;
     exit;
   end;
   if dars_kuni < hozir then
   begin
     Rectangle2.Fill.Color := TAlphaColorRec.Darkgray;
     Rectangle3.Fill.Color := TAlphaColorRec.Darkgray;
+    Rectangle1.Visible := true;
     exit;
   end;
   if timeedit(Label2.Text, Label3.Text) then
@@ -102,12 +104,21 @@ begin
   end
   else
   begin
-    if StrToTime(Label2.Text).GetTime < Now.GetTime then
+    if StrToTime(Label2.Text).GetTime > Now.GetTime then
     begin
       Rectangle2.Fill.Color := TAlphaColor($FFD78A2B);
       Rectangle3.Fill.Color := TAlphaColor($FFD78A2B);
+    end
+    else
+    begin
+      if StrToTime(Label3.Text).GetTime < Now.GetTime then
+      begin
+        Rectangle2.Fill.Color := TAlphaColorRec.Darkgray;
+        Rectangle3.Fill.Color := TAlphaColorRec.Darkgray;
+      end;
     end;
   end;
+  Rectangle1.Visible := true;
 end;
 
 procedure TFrame2.writefan(const value: string);

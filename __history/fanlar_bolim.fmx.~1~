@@ -1,0 +1,143 @@
+object Frame1: TFrame1
+  Align = Client
+  Size.Width = 291.000000000000000000
+  Size.Height = 553.000000000000000000
+  Size.PlatformDefault = False
+  Visible = False
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 291.000000000000000000
+    Size.Height = 520.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 2
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      291s
+      520s
+      291s
+      520s
+      291s
+      520s)
+    object fanlar: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'fanlar'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ListBox1: TListBox
+        Align = Client
+        Size.Width = 291.000000000000000000
+        Size.Height = 520.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        DisableFocusEffect = True
+        ItemHeight = 130.000000000000000000
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 287.000000000000000000
+        Viewport.Height = 447.000000000000000000
+      end
+    end
+    object loading: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'loading'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object AniIndicator1: TAniIndicator
+        Align = Center
+        Size.Width = 105.000000000000000000
+        Size.Height = 115.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object umumiy: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'umumiy'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object TabControl2: TTabControl
+        Align = MostTop
+        FullSize = True
+        Size.Width = 291.000000000000000000
+        Size.Height = 193.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'tabcontrolstyle'
+        TabIndex = 0
+        TabOrder = 39
+        TabPosition = PlatformDefault
+      end
+    end
+  end
+  object Button1: TButton
+    Align = Top
+    StyledSettings = [Family, Size, Style]
+    Size.Width = 291.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'oxirgi yangilanish'
+    TextSettings.FontColor = claRed
+    OnClick = Button1Click
+  end
+  object ToolBar1: TToolBar
+    Align = MostTop
+    Size.Width = 291.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Visible = False
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 291.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Fan haqida batafsil'
+      TabOrder = 0
+      object Button2: TButton
+        Align = MostLeft
+        Size.Width = 41.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'arrowlefttoolbutton'
+        TabOrder = 3
+        Text = 'Button2'
+        OnClick = Button2Click
+      end
+    end
+  end
+  object NetHTTPClient1: TNetHTTPClient
+    Asynchronous = True
+    UserAgent = 'Embarcadero URI Client/1.0'
+    OnRequestCompleted = NetHTTPClient1RequestCompleted
+    OnRequestError = NetHTTPClient1RequestError
+    OnRequestException = NetHTTPClient1RequestException
+    Left = 136
+    Top = 113
+  end
+end

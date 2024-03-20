@@ -203,14 +203,14 @@ inherited mainform_NmXhdpiPh: Tmainform_NmXhdpiPh
           Size.Height = 493.000000000000000000
           Viewport.Width = 297.000000000000000000
           Viewport.Height = 493.000000000000000000
-          inherited ListBoxItem5: TListBoxItem
-            Position.Y = 280.000000000000000000
-          end
-          inherited ListBoxGroupHeader2: TListBoxGroupHeader
+          inherited ListBoxGroupHeader2: TListBoxGroupHeader [5]
             Position.Y = 200.000000000000000000
           end
-          inherited Chiqish: TListBoxItem
+          inherited Chiqish: TListBoxItem [6]
             Position.Y = 240.000000000000000000
+          end
+          inherited ListBoxItem5: TListBoxItem [7]
+            Position.Y = 280.000000000000000000
           end
         end
         inherited Label3: TLabel

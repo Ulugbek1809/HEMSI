@@ -760,7 +760,7 @@ object mainform: Tmainform
                 OnClick = Button6Click
               end
               object DateEdit1: TDateEdit
-                Date = 45371.000000000000000000
+                Date = 45366.000000000000000000
                 WeekNumbers = True
                 Format = 'DD.MM.YYYY'
                 TodayDefault = True
@@ -838,7 +838,6 @@ object mainform: Tmainform
     Size.Width = 297.000000000000000000
     Size.Height = 480.000000000000000000
     Size.PlatformDefault = False
-    Visible = False
     TabOrder = 1
     object GridPanelLayout6: TGridPanelLayout
       Align = MostTop

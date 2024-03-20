@@ -139,7 +139,7 @@ object Frame3: TFrame3
           Size.Width = 110.000000000000000000
           Size.Height = 109.000000000000000000
           Size.PlatformDefault = False
-          Stroke.Color = claGreen
+          Stroke.Color = claGreenyellow
           Stroke.Thickness = 6.000000000000000000
           Stroke.Dash = Custom
           Stroke.CustomDash = {0000000000000000}
@@ -154,7 +154,7 @@ object Frame3: TFrame3
             Size.PlatformDefault = False
             TextSettings.Font.Size = 23.000000000000000000
             TextSettings.Font.StyleExt = {00070000000000000004000000}
-            TextSettings.FontColor = claGreen
+            TextSettings.FontColor = claGreenyellow
             TextSettings.HorzAlign = Center
             Text = '0/100'
             TabOrder = 0

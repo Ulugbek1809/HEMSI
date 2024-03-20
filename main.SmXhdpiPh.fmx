@@ -223,16 +223,6 @@ inherited mainform_SmXhdpiPh: Tmainform_SmXhdpiPh
         inherited ListBox2: TListBox
           Viewport.Width = 261.000000000000000000
           Viewport.Height = 371.000000000000000000
-          inherited ListBoxGroupHeader1: TListBoxGroupHeader
-            Size.Height = 30.000000000000000000
-          end
-          inherited ListBoxGroupHeader2: TListBoxGroupHeader [5]
-            Size.Height = 30.000000000000000000
-          end
-          inherited Chiqish: TListBoxItem [6]
-          end
-          inherited ListBoxItem5: TListBoxItem [7]
-          end
         end
       end
       inherited smestrtabitem: TTabItem
